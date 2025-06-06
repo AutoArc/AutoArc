@@ -69,7 +69,7 @@ To switch models or adjust the server endpoints, update the settings in [Method/
 
 ### Usage
 
-To use `AutoArc`, run the script from the command line, specifying the necessary arguments. Here is a breakdown of the available arguments:
+To use `AutoArc`, run the script from the command line(After cloning the code repository, please unzip the  [enre.zip](Method/AutoArc/lib/enre.zip) file in its directory), specifying the necessary arguments. Here is a breakdown of the available arguments:
 
 ```less
 usage: AutoArc.bat [-d DIRETORY] [-r ARCHTECTURE_VIOLATION_RULE] [-p PROJECT_NAME] [-t PROJECT_TYPe] 
