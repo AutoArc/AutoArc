@@ -2,7 +2,7 @@ This repository illustrates the tool, data, and scripts of our ASE 2025 under-re
 
  We opened all of the collected data of the investigated real-world subjects. Due to the file size limit of GitHub, we upload the processed data to this repository. 
 
-We have provided a video [AutoArc-sample-demo](Data/Setup/AutoArc-sample-demo.mov)  to demonstrate of our tool `DroidDS` running on a sample project.
+We have provided a video [AutoArc-sample-demo](Data/Setup/AutoArc-sample-demo.mov)  to demonstrate of our tool `AutoArc` running on a sample project.
 
 This is the overview of AutoArc:![overview of AutoArc](Data/Setup/3.1AutoArcOverview.png)
 
