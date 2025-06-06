@@ -1,0 +1,6 @@
+﻿Results in different LLMs and NLs for RQ2,,,,,,,,,
+,LLaMA3.3,,,Deepseek-R1,,,Qwen2.5,,
+Domain def.,#Pfirst,#Pfinal,#Pdevelop,#Pfirst,#Pfinal,#Pdevelop,#Pfirst,#Pfinal,#Pdevelop
+NL_1,92.4,95.2,2.8,73.3,90,16.7,92.4,93.8,1.4
+NL_2,79.5,84.2,4.7,59.5,84.3,24.8,71.9,78.6,6.7
+NL_3,42.9,59.5,16.6,28.1,49,20.9,42.4,46.7,4.3

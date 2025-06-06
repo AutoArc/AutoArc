@@ -1,0 +1,1 @@
+1,fields that are protected should be declared in classes that reside in a package 'packageIdentifier',Field <otherpackage.WrongOuterClass$NestedClass.invalidProtectedField> is not declared in classes that reside in a package 'packageIdentifier' in (WrongOuterClass.java:0),WrongOuterClass.java,MEDIUM

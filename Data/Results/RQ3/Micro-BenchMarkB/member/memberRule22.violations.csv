@@ -1,0 +1,4 @@
+1,members that are protected should have full name matching 'regex',Field <packageIdentifier.InvalidClass.myField> does not have full name matching 'regex' in (InvalidClass.java:0),InvalidClass.java,MEDIUM
+2,members that are protected should have full name matching 'regex',Field <packageIdentifier.regex.myField> does not have full name matching 'regex' in (regex.java:0),regex.java,MEDIUM
+3,members that are protected should have full name matching 'regex',Method <packageIdentifier.InvalidClass.someMethod()> does not have full name matching 'regex' in (InvalidClass.java:9),)> does not have full name matching 'regex' in (InvalidClass.java,MEDIUM
+4,members that are protected should have full name matching 'regex',Method <packageIdentifier.regex.myMethod()> does not have full name matching 'regex' in (regex.java:9),)> does not have full name matching 'regex' in (regex.java,MEDIUM

@@ -1,0 +1,1 @@
+1,fields that are private and are declared in classes that reside in a package 'packageIdentifier' should be protected,Field <packageIdentifier.InvalidClass.myPrivateField> does not have modifier PROTECTED in (InvalidClass.java:0),InvalidClass.java,MEDIUM

@@ -1,0 +1,2 @@
+1,constructors that are not private should be public,Constructor <packageIdentifier.InvalidClass.<init>()> does not have modifier PUBLIC in (InvalidClass.java:4),)> does not have modifier PUBLIC in (InvalidClass.java,MEDIUM
+2,constructors that are not private should be public,Constructor <packageIdentifier.InvalidClass2.<init>()> does not have modifier PUBLIC in (InvalidClass2.java:4),)> does not have modifier PUBLIC in (InvalidClass2.java,MEDIUM

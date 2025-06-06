@@ -1,0 +1,1 @@
+1,constructors that are public and are declared in classes that reside in a package 'packageIdentifier' should be private,Constructor <packageIdentifier.InvalidClass.<init>()> does not have modifier PRIVATE in (InvalidClass.java:6),)> does not have modifier PRIVATE in (InvalidClass.java,MEDIUM

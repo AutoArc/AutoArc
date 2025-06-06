@@ -1,0 +1,2 @@
+1,classes that are public should not be assignable to packageIdentifier.typeName,Class <packageIdentifier.InvalidMyClass> is assignable to packageIdentifier.typeName in (InvalidMyClass.java:0),InvalidMyClass.java,MEDIUM
+2,classes that are public should not be assignable to packageIdentifier.typeName,Class <packageIdentifier.typeName> is assignable to packageIdentifier.typeName in (typeName.java:0),typeName.java,MEDIUM

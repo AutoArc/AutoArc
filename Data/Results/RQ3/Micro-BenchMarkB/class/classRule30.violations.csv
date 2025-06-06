@@ -1,0 +1,1 @@
+1,classes that are package private should not be annotated with @annotationTypeName,Class <packageIdentifier.AnnotatedPackagePrivateClass> is annotated with @annotationTypeName in (AnnotatedPackagePrivateClass.java:0),AnnotatedPackagePrivateClass.java,MEDIUM

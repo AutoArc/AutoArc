@@ -1,0 +1,1 @@
+1,classes that are public and are interfaces should depend on classes that have name matching '.*MyClass$',Method <mypackage.InvalidInterface.process(mypackage.OtherClass)> has parameter of type <mypackage.OtherClass> in (InvalidInterface.java:0),mypackage.OtherClass)> has parameter of type <mypackage.OtherClass> in (InvalidInterface.java,MEDIUM

@@ -1,0 +1,1 @@
+1,fields that are package private should have name matching '.*myField.*',Field <otherpackage.InvalidField.wrongName> does not have name matching '.*myField.*' in (InvalidField.java:0),InvalidField.java,MEDIUM

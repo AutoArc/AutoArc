@@ -1,0 +1,1 @@
+1,code units that are private should be annotated with @MyAnnotation,Method <packageIdentifier.InvalidClass.privateMethod()> is not annotated with @MyAnnotation in (InvalidClass.java:6),)> is not annotated with @MyAnnotation in (InvalidClass.java,MEDIUM

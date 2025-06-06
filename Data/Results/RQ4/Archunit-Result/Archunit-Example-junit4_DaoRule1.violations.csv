@@ -1,0 +1,5 @@
+1,classes that have name matching '.*Dao.*' should reside in a package '..dao..',"Class <com.tngtech.archunit.example.layers.persistence.first.InWrongPackageDao> does not reside in a package '..dao..'",InWrongPackageDao.java,MEDIUM
+2,classes that have name matching '.*Dao.*' should reside in a package '..dao..',"Class <com.tngtech.archunit.example.layers.persistence.layerviolation.DaoCallingService> does not reside in a package '..dao..'",DaoCallingService.java,MEDIUM
+3,classes that have name matching '.*Dao.*' should reside in a package '..dao..',"Class <com.tngtech.archunit.example.layers.service.ServiceViolatingDaoRules$MyEntityManager> does not reside in a package '..dao..'",ServiceViolatingDaoRules.java,MEDIUM
+4,classes that have name matching '.*Dao.*' should reside in a package '..dao..',"Class <com.tngtech.archunit.example.layers.service.ServiceViolatingDaoRules> does not reside in a package '..dao..'",ServiceViolatingDaoRules.java,MEDIUM
+5,classes that have name matching '.*Dao.*' should reside in a package '..dao..',"Class <com.tngtech.archunit.exampletest.junit4.DaoRulesTest> does not reside in a package '..dao..'",DaoRulesTest.java,MEDIUM

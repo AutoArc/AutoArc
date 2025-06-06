@@ -1,0 +1,1 @@
+1,fields that have name matching '.*my.*' should be final,Field <otherpackage.InvalidField.myField> does not have modifier FINAL in (InvalidField.java:0),InvalidField.java,MEDIUM

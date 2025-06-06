@@ -1,0 +1,1 @@
+1,classes that are package private should be public,Class <packageIdentifier.Wrapper> does not have modifier PUBLIC in (InvalidChild.java:0),InvalidChild.java,MEDIUM

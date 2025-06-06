@@ -1,0 +1,1 @@
+1,fields that are public should have name ending with 'Regex',Field <otherpackage.InvalidField.notMatchingField> does not have name ending with 'Regex' in (InvalidField.java:0),InvalidField.java,MEDIUM

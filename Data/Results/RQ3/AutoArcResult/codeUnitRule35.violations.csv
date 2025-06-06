@@ -1,0 +1,1 @@
+1,code units that have name matching '.*Regex.*' should be public,Method <packageIdentifier.InvalidRegexMethod.internalRegexProcessor()> does not have modifier PUBLIC in (InvalidRegexMethod.java:6),)> does not have modifier PUBLIC in (InvalidRegexMethod.java,MEDIUM

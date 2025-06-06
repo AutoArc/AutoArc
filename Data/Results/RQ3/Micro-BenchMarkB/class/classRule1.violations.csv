@@ -1,0 +1,1 @@
+1,classes that are public should be extended by classes that reside in a package 'packageIdentifier',Class <otherpackage.InvalidSubClass> extends class <otherpackage.BaseClass2> in (InvalidSubClass.java:0),InvalidSubClass.java,MEDIUM

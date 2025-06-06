@@ -1,0 +1,1 @@
+1,members that are private should have name starting with 'regex',Method <packageIdentifier.InvalidClass.processData()> does not have name starting with 'regex' in (InvalidClass.java:7),)> does not have name starting with 'regex' in (InvalidClass.java,MEDIUM

@@ -1,0 +1,4 @@
+1,members that are package private should have name matching 'regex',Constructor <packageIdentifier.InvalidClass.<init>()> does not have name matching 'regex' in (InvalidClass.java:3),)> does not have name matching 'regex' in (InvalidClass.java,MEDIUM
+2,members that are package private should have name matching 'regex',Constructor <packageIdentifier.ValidClass.<init>()> does not have name matching 'regex' in (ValidClass.java:3),)> does not have name matching 'regex' in (ValidClass.java,MEDIUM
+3,members that are package private should have name matching 'regex',Field <packageIdentifier.InvalidClass.InvalidField> does not have name matching 'regex' in (InvalidClass.java:0),InvalidClass.java,MEDIUM
+4,members that are package private should have name matching 'regex',Method <packageIdentifier.InvalidClass.InvalidMethod()> does not have name matching 'regex' in (InvalidClass.java:11),)> does not have name matching 'regex' in (InvalidClass.java,MEDIUM

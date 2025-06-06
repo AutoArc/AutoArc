@@ -1,0 +1,1 @@
+1,fields that are public and have name matching 'get.*' should be declared in classes that are private,Field <otherpackage.PublicOuterClass.getValue> is not declared in classes that are private in (PublicOuterClass.java:0),PublicOuterClass.java,MEDIUM

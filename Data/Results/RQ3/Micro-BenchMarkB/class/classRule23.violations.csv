@@ -1,0 +1,2 @@
+1,classes that are public should implement packageIdentifier.typeName,Class <packageIdentifier.InvalidClass> does not implement packageIdentifier.typeName in (InvalidClass.java:0),InvalidClass.java,MEDIUM
+2,classes that are public should implement packageIdentifier.typeName,Class <packageIdentifier.typeName> does not implement packageIdentifier.typeName in (typeName.java:0),typeName.java,MEDIUM

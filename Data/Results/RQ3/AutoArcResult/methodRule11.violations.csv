@@ -1,0 +1,1 @@
+1,methods that are public should be declared in classes that are public,Method <otherpackage.InvalidClass.publicMethod()> is not declared in classes that are public in (InvalidClass.java:8),)> is not declared in classes that are public in (InvalidClass.java,MEDIUM

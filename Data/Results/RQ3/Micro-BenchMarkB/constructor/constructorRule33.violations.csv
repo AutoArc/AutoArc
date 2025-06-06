@@ -1,0 +1,1 @@
+1,constructors that are private and are declared in classes that reside in a package 'packageIdentifier' should be protected,Constructor <packageIdentifier.InvalidClass.<init>()> does not have modifier PROTECTED in (InvalidClass.java:7),)> does not have modifier PROTECTED in (InvalidClass.java,MEDIUM

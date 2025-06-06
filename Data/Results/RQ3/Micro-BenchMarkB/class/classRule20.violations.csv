@@ -1,0 +1,2 @@
+1,classes that are package private should be private,Class <packageIdentifier.InvalidOuter> does not have modifier PRIVATE in (InvalidOuter.java:0),InvalidOuter.java,MEDIUM
+2,classes that are package private should be private,Class <packageIdentifier.PackagePrivateBase> does not have modifier PRIVATE in (PackagePrivateBase.java:0),PackagePrivateBase.java,MEDIUM

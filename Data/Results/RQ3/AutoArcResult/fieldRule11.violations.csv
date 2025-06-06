@@ -1,0 +1,1 @@
+1,fields that are public should be declared in classes that are public,Field <otherpackage.InvalidPublicFieldClass.publicField> is not declared in classes that are public in (InvalidPublicFieldClass.java:0),InvalidPublicFieldClass.java,MEDIUM

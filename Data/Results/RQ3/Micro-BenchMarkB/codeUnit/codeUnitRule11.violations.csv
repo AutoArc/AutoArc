@@ -1,0 +1,1 @@
+1,code units that are public should be declared in classes that are public,Method <otherpackage.SomeClass.myPublicMethod()> is not declared in classes that are public in (SomeClass.java:5),)> is not declared in classes that are public in (SomeClass.java,MEDIUM

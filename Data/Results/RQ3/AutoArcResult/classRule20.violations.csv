@@ -1,0 +1,2 @@
+1,classes that are package private should be extended by classes that are public,Class <packageIdentifier.InvalidOuter$PrivateChild> extends class <packageIdentifier.PackagePrivateBase> in (InvalidOuter.java:0),InvalidOuter.java,MEDIUM
+2,classes that are package private should be extended by classes that are public,Class <packageIdentifier.ValidOuter$PublicChild> extends class <packageIdentifier.PackagePrivateBase> in (ValidOuter.java:0),ValidOuter.java,MEDIUM

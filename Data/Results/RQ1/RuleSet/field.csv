@@ -1,0 +1,35 @@
+field [public] should declaredIn class (packagename ¡°packageIdentifier¡±)
+field [private] should declaredIn class(implement ¡°typeName¡±)
+field [protected] should declaredIn class (packagename ¡°packageIdentifier¡±)
+field [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+field [packagePrivate] should declaredIn class (packagename ¡°packageIdentifier¡±)
+field [public(haveNameStarting ¡°get¡±)] should declaredIn class (packagename ¡°packageIdentifier¡±)
+field [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+field [public (packagename ¡°packageIdentifier1¡±)] should declaredIn class (packagename ¡°packageIdentifier2¡±)
+field [(haveNameMatching ¡°regex¡±)] should declaredIn class (implement ¡°typeName1¡±)
+field [(haveNameMatching ¡°regex¡±)] should declaredIn class (packagename ¡°packageIdentifier¡±)
+field [public] should declaredIn class [public]
+field [private] should declaredIn class[static]
+field [protected] should declaredIn class[protected]
+field [private] should not declaredIn class [packagePrivate]
+field [packagePrivate] should declaredIn class [final]
+field [public(haveNameStarting ¡°get¡±)] should declaredIn class [private]
+field [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+field [public (packagename ¡°packageIdentifier1¡±)] should declaredIn class [public(packagename ¡°packageIdentifier2¡±)]
+field [(haveNameMatching ¡°regex¡±)] should declaredIn class [public(implement ¡°typeName¡±)]
+field [(haveNameMatching ¡°regex¡±)] should declaredIn class [static(packagename ¡°packageIdentifier¡±)]
+field [private] should beAnnotatedWith (¡°annotatedTypeName¡±)
+field [protected] should haveFullNameMatching (¡°regex¡±)
+field [private] should haveModifier(¡°JavaModifier¡±)
+field [packagePrivate] should haveNameMatching(¡°regex¡±)
+field [public] should haveNameEndingWith(¡°regex¡±)
+field [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+field [public] should haveNameStartingWith(¡°typeName¡±)
+field [private] should haveRawType(¡°typeName¡±)
+field [public] should haveRawType(¡°typeName¡±)
+field [public] should haveRawType(¡°typeName¡±)
+field [static(packagename ¡°packageIdentifier¡±)] should BePublic.
+field [final(packagename ¡°packageIdentifier¡±)] should BePrivate.
+field [private(packagename ¡°packageIdentifier¡±)] should BeProtected.
+field [public(packagename ¡°packageIdentifier¡±)] should BePackagePrivate.
+field [(haveNameMatching ¡°regex¡±)] should BeFinal.

@@ -1,0 +1,1 @@
+1,methods that are public and have name matching 'get.*' should have name matching '.*String.*',Method <otherpackage.InvalidGetter.get()> does not have name matching '.*String.*' in (InvalidGetter.java:7),)> does not have name matching '.*String.*' in (InvalidGetter.java,MEDIUM

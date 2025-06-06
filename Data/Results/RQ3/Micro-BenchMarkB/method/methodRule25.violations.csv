@@ -1,0 +1,2 @@
+1,methods that are package private should have name ending with 'String',Method <otherpackage.InvalidClass.invalidMethod()> does not have name ending with 'String' in (InvalidClass.java:7),)> does not have name ending with 'String' in (InvalidClass.java,MEDIUM
+2,methods that are package private should have name ending with 'String',Method <otherpackage.InvalidClass2.anotherMethodExample()> does not have name ending with 'String' in (InvalidClass2.java:7),)> does not have name ending with 'String' in (InvalidClass2.java,MEDIUM

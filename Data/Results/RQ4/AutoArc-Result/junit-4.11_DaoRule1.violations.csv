@@ -1,0 +1,9 @@
+1,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.junit.internal.builders.AllDefaultPossibilitiesBuilder> does not reside in a package '..loader..'",AllDefaultPossibilitiesBuilder.java,MEDIUM
+2,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.junit.internal.builders.AnnotatedBuilder> does not reside in a package '..loader..'",AnnotatedBuilder.java,MEDIUM
+3,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.junit.internal.builders.IgnoredBuilder> does not reside in a package '..loader..'",IgnoredBuilder.java,MEDIUM
+4,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.junit.internal.builders.JUnit3Builder> does not reside in a package '..loader..'",JUnit3Builder.java,MEDIUM
+5,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.junit.internal.builders.JUnit4Builder> does not reside in a package '..loader..'",JUnit4Builder.java,MEDIUM
+6,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.junit.internal.builders.NullBuilder> does not reside in a package '..loader..'",NullBuilder.java,MEDIUM
+7,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.junit.internal.builders.SuiteMethodBuilder> does not reside in a package '..loader..'",SuiteMethodBuilder.java,MEDIUM
+8,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.junit.rules.ExpectedExceptionMatcherBuilder> does not reside in a package '..loader..'",ExpectedExceptionMatcherBuilder.java,MEDIUM
+9,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.junit.runners.model.RunnerBuilder> does not reside in a package '..loader..'",RunnerBuilder.java,MEDIUM

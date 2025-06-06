@@ -1,0 +1,2 @@
+1,members that are private should be declared in classes that implement typeName,Field <packageIdentifier.InvalidClass.privateField> is not declared in classes that implement typeName in (InvalidClass.java:0),InvalidClass.java,MEDIUM
+2,members that are private should be declared in classes that implement typeName,Method <packageIdentifier.InvalidClass.privateMethod()> is not declared in classes that implement typeName in (InvalidClass.java:10),)> is not declared in classes that implement typeName in (InvalidClass.java,MEDIUM

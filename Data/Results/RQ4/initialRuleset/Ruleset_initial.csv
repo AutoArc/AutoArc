@@ -1,0 +1,74 @@
+CodingRule1,"No classes should access standard streams (like System.out, System.in, or System.err)."
+CodingRule2,"No classes should throw generic exceptions (such as Exception, Throwable, Error, or RuntimeException directly without a specific subclass)."
+CodingRule3,No classes should use java.util.logging for logging purposes.
+CodingRule4,"Fields of type Logger should be declared private, static, and final to follow good logging practices and encapsulation."
+CodingRule5,No classes should use Joda-Time library classes; this encourages the use of the modern Java 8+ java.time API instead.
+CodingRule6,No classes should use field injection.
+CodingRule7,A composite rule combining the previous two rules: no classes should access standard streams or throw generic exceptions.
+ControllerRule1,"Classes residing in a package ending with ""..controller.."" should only call methods that are either declared within the controller package or are annotated with @Secured."
+ControllerRule2,Classes in the controller package should only invoke constructors that are either declared within the controller package or belong to classes annotated with @Secured.
+ControllerRule3,"Classes in the controller package should only call any kind of code units (methods, constructors) that are either declared within the controller package or are part of @Secured-annotated elements."
+ControllerRule4,Classes within the controller package should only access fields that are either declared within the controller package or are marked with the @Secured annotation.
+ControllerRule5,Classes in the controller package should only access members (fields and methods) that are either declared within the controller package or are annotated with @Secured.
+CyclicDependencyRule1,Slices matching the pattern ..(simplecycle).(*).. should be free of cycles caused by method calls between them.
+CyclicDependencyRule2,Slices matching the pattern ..(constructorcycle).(*).. should be free of cycles caused by constructor calls between them.
+CyclicDependencyRule3,Slices matching the pattern ..(inheritancecycle).(*).. should be free of cycles caused by inheritance relationships between them.
+CyclicDependencyRule4,Slices matching the pattern ..(fieldaccesscycle).(*).. should be free of cycles caused by field accesses between them.
+CyclicDependencyRule5,Slices matching the pattern ..(membercycle).(*).. should be free of cycles caused by any member dependencies (fields or methods) between them.
+CyclicDependencyRule6,Packages under ..simplescenario.(*).. should form slices that are free of cyclic dependencies.
+CyclicDependencyRule7,Slices within the complex cycles package (..(complexcycles).(*)..) should be free of cyclic dependencies.
+CyclicDependencyRule8,"Slices within the complex cycles package should be free of cycles, but with specific exceptions: certain dependencies are ignored, such as from class."
+CyclicDependencyRule9,"Custom-defined slices based on the logic in inComplexSliceOneOrTwo() should be free of cyclic dependencies. Specifically: Classes in package complexcycles.slice1 belong to slice ""One"" of ""Complex-Cycle"". Classes in package complexcycles.slice2 belong to slice ""Two"" of ""Complex-Cycle"". Other packages are ignored for this rule."
+DaoRule1,"Classes with names ending in ""Dao"" must reside in a package named ""..dao..""."
+DaoRule2,"Classes annotated with @Entity must reside in a package named ""..domain..""."
+DaoRule3,"Only classes within the ""..dao.."" package may access or use the EntityManager class."
+DaoRule4,"Methods declared in classes whose names end in ""Dao"" must not declare that they throw SQLException."
+DependencyRule1,No class should depend upper package.
+FrozenRule1,"No classes should have dependencies on classes that residing in package ""..service..""."
+FrozenRule2,"No classes should have dependencies on classes that are assignable to ""EntityManager""."
+InterfaceRule1,"No interface should have a fully qualified class name that ends with the word ""Interface""."
+InterfaceRule2,"No interface should have a simple class name contains the word ""Interface""."
+InterfaceRule3,"No interface should be located in a package that contains ""..impl..""."
+LayerDependencyRule1,"Classes residing in the ""..service.."" package should not access  classes in the ""..controller.."" package."
+LayerDependencyRule2,"Classes residing in the ""..persistence.."" package should not access any classes in the ""..service.."" package."
+LayerDependencyRule3,"Classes in the ""..service.."" package should only be accessed by classes in the ""..controller.."" or ""..service.."" packages"
+LayerDependencyRule4,"Classes in the ""..service.."" package should only access classes that reside in ""..service.."", ""..persistence.."", or ""java.."""
+LayerDependencyRule5,"Classes in the ""..service.."" package should not depend  on classes in the ""..controller.."" package"
+LayerDependencyRule6,"Classes in the ""..persistence.."" package should not depend on classes in the ""..service.."" package"
+LayerDependencyRule7,"Classes in the ""..service.."" package should only have dependent classes in the ""..controller.."" or ""..service.."" packages."
+LayerDependencyRule8,"Classes in the ""..service.."" package should only depend on classes in ""..service.."", ""..persistence.."", ""java.."", or ""javax.."" packages "
+LayeredArchitectureRule1,"The application must follow a strict layered architecture:The Controllers layer should not be accessed by any other layer.;The Services layer should only be accessed by the Controllers layer.;The Persistence layer should only be accessed by the Services layer.;All dependencies are considered, including field access, method calls, inheritance, etc."
+LayeredArchitectureRule2,The dependency from class SomeMediator to ServiceViolatingLayerRules is explicitly ignored and will not cause a violation of the layering rules.
+MethodsRule1,"All public methods that declared in classes within the ""..anticorruption.."" package must return ""WrappedResult"" as their raw return type. "
+MethodsRule2,"No codeunits in classes within the ""..persistence.."" package should be annotated with @Secured. "
+ModulesRule1,modules_should_respect_their_declared_dependencies__use_package_API
+ModulesRule2,modules_should_respect_their_declared_dependencies_and_exposed_packages
+ModulesRule3,modules_should_respect_their_declared_dependencies__use_annotation_API
+ModulesRule4,modules_should_respect_their_declared_dependencies__use_root_class_API
+ModulesRule5,modules_should_respect_their_declared_dependencies__use_generic_API
+ModulesRule6,modules_should_only_depend_on_each_other_through_module_API
+ModulesRule7,modules_should_be_free_of_cycles
+NamingConventionRule1,"Classes located in the ""..service.."" package and annotated with @MyService should have simple names that start with ""Service""."
+NamingConventionRule2,"Classes located in the ""..controller.."" package should not have ""Gui"" in their simple class names."
+NamingConventionRule3,"Classes that are located in the ""..controller.."" package, or are annotated with @MyController, or inherit from AbstractController should have simple names that end with ""Controller""."
+NamingConventionRule4,"Any class whose simple name contains ""Controller"" must be located in a package named ""..controller..""."
+OnionArchitectureRule1,onion_architecture_is_respected
+OnionArchitectureRule2,onion_architecture_is_respected_with_exception
+OnionArchitectureRule3,onion_architecture_defined_by_annotations
+PlantUmlArchitectureRule1,classes_should_adhere_to_shopping_example_considering_only_dependencies_in_diagram
+PlantUmlArchitectureRule2,classes_should_adhere_to_shopping_example_considering_all_dependencies_and_ignoring_some_dependencies
+PlantUmlArchitectureRule3,classes_should_adhere_to_shopping_example_considering_only_dependencies_in_any_package
+ProxyRule1,no_bypass_of_proxy_logic
+RestrictNumberOfClassesWithACertainPropertyRule1,class that implement the interface SomeBusinessInterface should contain at most 1 element.
+RuleLibraryRule1,RuleSet
+RuleSetRule1,RuleSet
+SessionBeanRule1,"No class should set a field (i.e., hold state) where:The field's owner class is annotated with @Stateless (i.e., a Stateless Session Bean), and The access to that field originates outside of construction or initialization (not from a constructor or @PostConstruct method). This enforces the EJB best practice that stateless session beans should not maintain any conversational state."
+SessionBeanRule2,"Each business interface that has a corresponding implementation via the @Local annotation must have at most one implementation. This ensures that interfaces used as local EJB contracts are not implemented by multiple beans, which could lead to ambiguity or unintended behavior."
+SingleClassRule1,"class that have name matches ""VeryCentralCore"" should only be accessed by classes that implement ""CoreSatellite"""
+SingleClassRule2,"class that have name matches ""VeryCentralCore"" should not be accessed by classes that reside out of ""..core..""and""java.."""
+SingleClassRule3,"Any class annotated with @HighSecurity must be exactly the class VeryCentralCore,"
+SingleClassRule4,"The class VeryCentralCore must not implement the interface SomeOtherBusinessInterface, "
+SlicesIsolationRule1,"Controllers located in different slices matching the pattern ..controller.(*).. (e.g., controller.one, controller.two) should not depend on each other. "
+SlicesIsolationRule2,"Only slices whose descriptions contain ""Controller one"" or ""Controller two"" are checked for isolation: these specific controller slices should not depend on each other, while other controller slices are not considered by this rule."
+SlicesIsolationRule3,controllers_should_only_use_their_own_slice_with_custom_ignore
+ThirdPartyRule1,third_party_class_should_only_be_instantiated_via_workaround

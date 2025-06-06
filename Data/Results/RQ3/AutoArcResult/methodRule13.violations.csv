@@ -1,0 +1,1 @@
+1,methods that are protected should be declared in classes that are protected,Method <otherpackage.InvalidClass.illegalProtectedMethod()> is not declared in classes that are protected in (InvalidClass.java:6),)> is not declared in classes that are protected in (InvalidClass.java,MEDIUM

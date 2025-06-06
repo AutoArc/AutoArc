@@ -1,0 +1,1 @@
+1,methods that are private and have modifier FINAL should have raw return type java.lang.String,Method <otherpackage.WrongReturnType.getCode()> does not have raw return type java.lang.String in (WrongReturnType.java:7),)> does not have raw return type java.lang.String in (WrongReturnType.java,MEDIUM

@@ -1,0 +1,1 @@
+1,code units that are private should declare throwable of type packageIdentifier.MyCustomException,Method <packageIdentifier.InvalidClass.doSomethingWrong()> does not declare throwable of type packageIdentifier.MyCustomException in (InvalidClass.java:6),)> does not declare throwable of type packageIdentifier.MyCustomException in (InvalidClass.java,MEDIUM

@@ -1,0 +1,35 @@
+constructor [public] should declaredIn class (packagename ¡°packageIdentifier¡±)
+constructor [private] should declaredIn class(implement ¡°typeName¡±)
+constructor [protected] should declaredIn class (packagename ¡°packageIdentifier¡±)
+constructor [private] should declaredIn class (packagename ¡°packageIdentifier¡±)
+constructor [packagePrivate] should declaredIn class (packagename ¡°packageIdentifier¡±)
+constructor [public(haveNameMatching ¡°get¡±)] should declaredIn class (packagename ¡°packageIdentifier¡±)
+constructor [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+constructor [public (packagename ¡°packageIdentifier1¡±)] should declaredIn class (packagename ¡°packageIdentifier2¡±)
+constructor [(haveNamematching ¡°regex¡±)] should declaredIn class (implement ¡°typeName¡±)
+constructor [(haveNamematching ¡°regex¡±)] should declaredIn class (packagename ¡°packageIdentifier1¡±)
+constructor [public] should declaredIn class [public]
+constructor [private] should declaredIn class[static]
+constructor [protected] should declaredIn class[protected]
+constructor [private] should not declaredIn class [packagePrivate]
+constructor [packagePrivate] should declaredIn class [final]
+constructor [public(haveNameMatching ¡°get¡±)] should declaredIn class [private]
+constructor [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+constructor [public (packagename ¡°packageIdentifier1¡±)] should declaredIn class [public(packagename ¡°packageIdentifier2¡±)]
+constructor [(haveNamematching ¡°regex¡±)] should declaredIn class [public(implement ¡°typeName¡±)]
+constructor [(haveNamematching ¡°regex¡±)] should declaredIn class [static(packagename ¡°packageIdentifier¡±)]
+constructor [private] should beAnnotatedWith (¡°annotatedTypeName¡±)
+constructor [protected] should haveFullNameMatching (¡°regex¡±)
+constructor [private] should haveModifier(¡°JavaModifier¡±)
+constructor [packagePrivate] should haveNameMatching (¡°regex¡±)
+constructor [public] should haveNameEndingWith (¡°regex¡±)
+constructor [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+constructor [public] should haveNameStartingWith (¡°regex¡±)
+constructor [private] should haveNameStartingWith (¡°regex¡±)
+constructor [public] should haveNameStartingWith (¡°regex¡±)
+constructor [private] should declareThrowableOfType (¡°typeName¡±)
+constructor [static(packagename ¡°packageIdentifier¡±)] should BePublic.
+constructor [final(packagename ¡°packageIdentifier¡±)] should BePrivate.
+member [private(packagename ¡°packageIdentifier¡±)] should BeProtected.
+constructor [public(packagename ¡°packageIdentifier¡±)] should BePackagePrivate.
+constructor [(matches (¡°regex¡±)] should BePublic.

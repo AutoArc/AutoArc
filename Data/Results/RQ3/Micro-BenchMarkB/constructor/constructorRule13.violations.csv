@@ -1,0 +1,1 @@
+1,constructors that are protected should be declared in classes that are protected,Constructor <packageIdentifier.ValidClass.<init>()> is not declared in classes that are protected in (ValidClass.java:5),)> is not declared in classes that are protected in (ValidClass.java,MEDIUM

@@ -1,0 +1,1 @@
+1,no code units that are private should be declared in classes that are package private,Method <packageIdentifier.InvalidClass.privateMethod()> is declared in classes that are package private in (InvalidClass.java:5),)> is declared in classes that are package private in (InvalidClass.java,MEDIUM

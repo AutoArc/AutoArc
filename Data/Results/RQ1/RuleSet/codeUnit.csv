@@ -1,0 +1,35 @@
+codeUnit [public] should declaredIn class (packagename ¡°packageIdentifier¡±)
+codeUnit [private] should declaredIn class(implement ¡°typeName¡±)
+codeUnit [protected] should declaredIn class (packagename ¡°packageIdentifier¡±)
+codeUnit [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+codeUnit [packagePrivate] should declaredIn class (packagename ¡°packageIdentifier¡±)
+codeUnit [public(haveNameMatching ¡°Regex¡±)] should declaredIn class (packagename ¡°packageIdentifier¡±)
+codeUnit [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+codeUnit [public (packagename ¡°packageIdentifier1¡±)] should declaredIn class (packagename ¡°packageIdentifier2¡±)
+codeUnit [(haveNameMatching ¡°Regex¡±)] should declaredIn class (implement ¡°typeName¡±)
+codeUnit [(haveNameMatching ¡°Regex¡±)] should declaredIn class (packagename ¡°packageIdentifier¡±)
+codeUnit [public] should declaredIn class [public]
+codeUnit [private] should declaredIn class[static]
+codeUnit [protected] should declaredIn class[protected]
+codeUnit [private] should not declaredIn class [packagePrivate]
+codeUnit [packagePrivate] should declaredIn class [final]
+codeUnit [public(haveNamematching ¡°get¡±)] should declaredIn class [private]
+codeUnit [private] should not declaredIn class (packagename ¡°packageIdentifier1¡±)
+codeUnit [public (packagename ¡°packageIdentifier1¡±)] should declaredIn class [public(packagename ¡°packageIdentifier2¡±)]
+codeUnit [(haveNameMatching ¡°Regex¡±)] should declaredIn class [public(implement ¡°typeName¡±)]
+codeUnit [(haveNameMatching ¡°Regex¡±)] should declaredIn class [static(packagename ¡°packageIdentifier¡±)]
+codeUnit [private] should beAnnotatedWith (¡°annotationTypeName¡±)
+codeUnit [protected] should haveFullNameMatching (¡°regex¡±)
+codeUnit [private] should haveModifier(¡°JavaModifier¡±)
+codeUnit [packagePrivate] should haveNameMatching(¡°regex¡±)
+codeUnit [public] should haveNameEndingWith(¡°regex¡±)
+codeUnit [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+codeUnit [public] should haveNameStartingWith(¡°regex¡±)
+codeUnit [public] should haveRawReturnType(¡°typeName¡±)
+codeUnit [private] should haveRawParameterTypes(¡°typeName¡±)
+codeUnit [private] should declareThrowableOfType(¡°typeName¡±)
+codeUnit [static(packagename ¡°packageIdentifier¡±)] should BePublic.
+codeUnit [final(packagename ¡°packageIdentifier¡±)] should BePrivate.
+codeUnit [private(packagename ¡°packageIdentifier¡±)] should BeProtected.
+codeUnit [public(packagename ¡°packageIdentifier¡±)] should BePackagePrivate.
+codeUnit [(haveNameMatching ¡°regex¡±)] should BePublic.

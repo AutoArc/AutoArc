@@ -1,0 +1,1 @@
+1,no constructors that are private should be declared in classes that are package private,Constructor <packageIdentifier.InvalidClass.<init>()> is declared in classes that are package private in (InvalidClass.java:6),)> is declared in classes that are package private in (InvalidClass.java,MEDIUM

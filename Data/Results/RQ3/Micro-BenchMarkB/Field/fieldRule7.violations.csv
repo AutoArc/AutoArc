@@ -1,0 +1,1 @@
+1,no fields that are private should be declared in classes that reside in a package 'packageIdentifier',Field <packageIdentifier.OuterInvalid$Inner.secret> is declared in classes that reside in a package 'packageIdentifier' in (OuterInvalid.java:0),OuterInvalid.java,MEDIUM

@@ -1,0 +1,1 @@
+1,code units that are protected should be declared in classes that reside in a package 'packageIdentifier',Method <otherpackage.InvalidClass.invalidMethod()> is not declared in classes that reside in a package 'packageIdentifier' in (InvalidClass.java:6),)> is not declared in classes that reside in a package 'packageIdentifier' in (InvalidClass.java,MEDIUM

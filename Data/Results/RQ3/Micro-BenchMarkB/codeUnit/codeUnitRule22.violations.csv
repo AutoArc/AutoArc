@@ -1,0 +1,1 @@
+1,code units that are protected should have full name matching '.*regex.*',Method <packageIdentifier.InvalidClass.invalidMethod()> does not have full name matching '.*regex.*' in (InvalidClass.java:6),)> does not have full name matching '.*regex.*' in (InvalidClass.java,MEDIUM

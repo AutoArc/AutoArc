@@ -1,0 +1,35 @@
+class[public ] should beExtendBy class(packagename ¡°packageIdentifier¡±)
+class[static] should access class(packagename ¡°packageIdentifier¡±)
+class[interface public] should implement class(match ¡°myclass¡±)
+class[public(packagename ¡°packageIdentifier¡±)] should dependOn class(match ¡°myclass¡±)
+class[(implement ¡°typeName¡±)] should beExtendedBy class(match ¡°className¡±)
+class[(implement ¡°typeName¡±)] should not implement class(match ¡°className¡±)
+class[public(implement ¡°typeName¡±)] should not access class(annotate ¡°annotationTypeName¡±)
+class[(implement ¡°typeName¡±)] should access class(packagename ¡°packageIdentifier1¡±)
+class[inner (packagename ¡°packageIdentifier¡±)] should not implement class[match ¡°className¡±]
+class[public] should dependOn class(packagename ¡°packageIdentifier¡±)
+class[public] should not beExtendBy class[private]
+class[public] should not access class[private]
+class[final] should not implement class[final]
+class[local] should not dependOn class[local]
+class[interface] should not implement class[static]
+class[topLevel] should not implement class[private]
+class[protected] should implement class[private (packagename ¡°packageIdentifier1¡±)]
+class[public] should beAccessedBy class[static(match ¡°className¡±)]
+class[protected] should not implement class[private]
+class[packagePrivate] should not access method[private]
+class[public] should haveNameMatching(¡°classname¡±)
+class[public] should not beAssignableTo(¡°typeName¡±)
+class[public] should not haveParameterTypes(¡°typeName¡±)
+class[public] should not haveFullNameMatching(¡°regex¡±)
+class[public] should haveReturnType(¡°typeName¡±)
+class[public] should haveNameContaining(¡°regex¡±)
+class[public] should not haveNameEndingWith(¡°regex¡±)
+class[private] should haveNameStartingWith(¡°regex¡±)
+class[protected] should declareThrowableOfType(¡°typeName¡±)
+class[packagePrivate] should not beAnnotatedWith(¡°annotationTypeName¡±)
+class[static] should BePublic.
+class[anonymous] should BePublic.
+class[public] should BeProtected.
+class[public] should BeAbstract.
+class[anonymous] should BeEnums.

@@ -1,0 +1,1 @@
+1,classes that are public should be local classes,Class <packageIdentifier.ConcreteClass> is no local class in (ConcreteClass.java:0),ConcreteClass.java,MEDIUM

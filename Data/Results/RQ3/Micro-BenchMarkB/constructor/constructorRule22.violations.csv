@@ -1,0 +1,1 @@
+1,constructors that are protected should have full name matching '.*my.*',Constructor <packageIdentifier.InvalidClass.<init>()> does not have full name matching '.*my.*' in (InvalidClass.java:7),)> does not have full name matching '.*my.*' in (InvalidClass.java,MEDIUM

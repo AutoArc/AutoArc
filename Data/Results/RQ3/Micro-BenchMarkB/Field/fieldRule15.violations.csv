@@ -1,0 +1,1 @@
+1,fields that are package private should be declared in classes that have modifier FINAL,Field <otherpackage.NonFinalClass.packagePrivateField> is not declared in classes that have modifier FINAL in (NonFinalClass.java:0),NonFinalClass.java,MEDIUM

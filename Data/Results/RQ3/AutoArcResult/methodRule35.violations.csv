@@ -1,0 +1,1 @@
+1,methods that have name matching '.*get.*' should be public,Method <otherpackage.InvalidGetter.get()> does not have modifier PUBLIC in (InvalidGetter.java:7),)> does not have modifier PUBLIC in (InvalidGetter.java,MEDIUM

@@ -1,0 +1,1 @@
+1,members that are private should be declared in classes that reside outside of package 'packageIdentifier',Field <packageIdentifier.InvalidClass.value> is not declared in classes that reside outside of package 'packageIdentifier' in (InvalidClass.java:0),InvalidClass.java,MEDIUM

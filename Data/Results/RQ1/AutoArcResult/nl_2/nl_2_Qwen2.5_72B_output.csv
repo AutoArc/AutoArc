@@ -1,0 +1,211 @@
+DSL,API,Attempts
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"interface [public] should implement class[""myclass""];","interfaces().that().arePublic().should().ImplementClasse(""myclass"")",2
+Trains Failed,Trains Failed,Trains Failed
+"class [implement ""typeName""] should beExtendedBy class [""className""];","classes().that().implement(""typeName"").should().onlyBeExtendedByClasse(""className"")",0
+"class [implement ""typeName""] should not implement class [classname ""className""];","classes().that().implement(""typeName"").should().notImplementClassesThat().haveNameMatching(""className"")",0
+"class [public implement ""typeName""] should not beAnnotatedWith ""annotationTypeName"";","classes().that().arePublic().and().implement(""typeName"").should().notBeAnnotatedWith(""annotationTypeName"")",0
+Trains Failed,Trains Failed,Trains Failed
+"class [inner (packagename ""packageIdentifier"")] should not implement ""className"";","classes().that().areInnerClasses().and().resideInAPackage(""packageIdentifier"").should().notImplement(""className"")",3
+Trains Failed,Trains Failed,Trains Failed
+class [public] should not beExtendedBy class[private];,classes().that().arePublic().should().notBeExtendedByClassesThat().arePrivate(),0
+class [public] should not access class [private];,classes().that().arePublic().should().notBeAccesseClassesThat().arePrivate(),0
+class [final] should not implement class[final];,classes().that().haveModifier(JavaModifier.FINAL).should().notImplementClassesThat().areFinal(),0
+class [local] should not dependOn class [local];,noClasses().that().areLocalClasses().should().dependOnClassesThat().areLocalClasses(),0
+Trains Failed,Trains Failed,Trains Failed
+class [topLevel] should not implement class [private];,classes().that().areTopLevelClasses().should().notImplementClassesThat().arePrivate(),0
+"class [protected] should implement class [private (packagename ""packageIdentifier1"")];","classes().that().areProtected().should().ImplementClassesThat().arePrivate().andShould().ImplementClassesThat().resideInAPackage(""packageIdentifier1"")",0
+class [public] should beAccessedBy class [static];,classes().that().arePublic().should().BeAccessedByClassesThat().areStatic(),2
+class [protected] should not implement class [private];,classes().that().areProtected().should().notImplementClassesThat().arePrivate(),0
+class [packagePrivate] should not access method[private];,classes().that().arePackagePrivate().should().notBeAccesseMethodsThat().arePrivate(),0
+"class [public] should haveNameMatching(""classname"");","classes().that().arePublic().should().haveNameMatching(""classname"")",0
+"class [public] should not beAssignableTo(""typeName"");","classes().that().arePublic().should().notBeAssignableTo(""typeName"")",0
+"class [public] should not haveParameterTypes(""typeName"");","classes().that().arePublic().should().no such no operator(""typeName"")",0
+Trains Failed,Trains Failed,Trains Failed
+"class [public] should haveRawReturnType(""typeName"");","classes().that().arePublic().should().haveRawReturnType(""typeName"")",0
+"class [public] should haveNameContaining(""regex"");","classes().that().arePublic().should().haveNameContaining(""regex"")",0
+Trains Failed,Trains Failed,Trains Failed
+"class [private] should haveNameMatching(""regex"");","classes().that().arePrivate().should().haveNameMatching(""regex"")",0
+"class [protected] should declareThrowableOfType(""typeName"");","classes().that().areProtected().should().declareThrowableOfType(""typeName"")",0
+"class [packagePrivate] should not beAnnotatedWith(""annotationTypeName"");","classes().that().arePackagePrivate().should().notBeAnnotatedWith(""annotationTypeName"")",0
+class [static] should BePublic;,classes().that().haveModifier(JavaModifier.STATIC).should().bePublic(),0
+class [anonymous] should BePublic;,classes().that().areAnonymousClasses().should().bePublic(),0
+class [public] should BeProtected;,classes().that().arePublic().should().beProtected(),0
+class [public] should BeAbstract;,classes().that().arePublic().should().beAbstract(),0
+class [anonymous] should BeEnums;,classes().that().areAnonymousClasses().should().beEnums(),0
+"codeUnit [public (packagename ""packageIdentifier"")] should BePublic;","codeUnits().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePublic()",0
+Trains Failed,Trains Failed,Trains Failed
+"codeUnit [protected (packagename ""packageIdentifier"")] should BeProtected;","codeUnits().that().areProtected().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().beProtected()",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"codeUnit [(classname ""typeName"")] should haveNameMatching(""Regex"");","codeUnits().that().areDeclaredInClassesThat().haveNameMatching(""typeName"").should().haveNameMatching(""Regex"")",0
+"codeUnit [(packagename ""packageIdentifier"")] should haveNameMatching(""Regex"");","codeUnits().that().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().haveNameMatching(""Regex"")",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+codeUnit [private] should not dependOn class [packagePrivate];,codeUnits().that().arePrivate().should().dependOnClassesThat().arePackagePrivate(),1
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"codeUnit [static (classname ""packageIdentifier"")] should haveNameMatching(""Regex"");","codeUnits().that().haveModifier(JavaModifier.STATIC).and().areDeclaredInClassesThat().haveNameMatching(""packageIdentifier"").should().haveNameMatching(""Regex"")",1
+"codeUnit [private (annotate ""annotationTypeName"")] should beAnnotatedWith(""annotationTypeName"");","codeUnits().that().arePrivate().and().areAnnotatedWith(""annotationTypeName"").should().beAnnotatedWith(""annotationTypeName"")",1
+"codeUnit [protected] should haveFullNameMatching(""regex"");","codeUnits().that().areProtected().should().haveFullNameMatching(""regex"")",0
+Trains Failed,Trains Failed,Trains Failed
+"codeUnit [packagePrivate] should haveNameMatching(""regex"");","codeUnits().that().arePackagePrivate().should().haveNameMatching(""regex"")",0
+"codeUnit [public] should haveNameEndingWith(""regex"");","codeUnits().that().arePublic().should().haveNameEndingWith(""regex"")",0
+Trains Failed,Trains Failed,Trains Failed
+"codeUnit [public] should haveNameStartingWith(""regex"");","codeUnits().that().arePublic().should().haveNameStartingWith(""regex"")",0
+"codeUnit [public] should haveRawReturnType(""typeName"");","codeUnits().that().arePublic().should().haveRawReturnType(""typeName"")",0
+"codeUnit [private] should haveRawParameterTypes(""typeName"");","codeUnits().that().arePrivate().should().haveRawParameterTypes(""typeName"")",0
+"codeUnit [private] should declareThrowableOfType(""typeName"");","codeUnits().that().arePrivate().should().declareThrowableOfType(""typeName"")",0
+"codeUnit [static (packagename ""packageIdentifier"")] should BePublic;","codeUnits().that().haveModifier(JavaModifier.STATIC).and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePublic()",0
+"codeUnit [final (packagename ""packageIdentifier"")] should BePrivate;","codeUnits().that().haveModifier(JavaModifier.FINAL).and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePrivate()",0
+"codeUnit [private (packagename ""packageIdentifier"")] should BeProtected;","codeUnits().that().arePrivate().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().beProtected()",0
+"codeUnit [public (packagename ""packageIdentifier"")] should BePackagePrivate;","codeUnits().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePackagePrivate()",0
+"codeUnit [(match ""^/app"")] should BePublic;","codeUnits().that().haveNameMatching(""^/app"").should().bePublic()",0
+"constructor [public (packagename ""packageIdentifier"")] should BePublic;","constructors().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePublic()",0
+"constructor [private] should declaredIn class (implement ""typeName"");","constructors().that().arePrivate().should().beDeclaredInClassesThat().areDeclaredInClassesThat().implement(""typeName"")",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"constructor [packagePrivate (packagename ""packageIdentifier"")] should BePackagePrivate;","constructors().that().arePackagePrivate().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePackagePrivate()",3
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"constructor [(haveNameMatching ""regex"")] should declaredIn class (implement ""typeName"");","constructors().that().haveNameMatching(""regex"").should().beDeclaredInClassesThat().areDeclaredInClassesThat().implement(""typeName"")",0
+Trains Failed,Trains Failed,Trains Failed
+constructor [public] should declaredIn class [public];,constructors().that().arePublic().should().beDeclaredInClassesThat().arePublic(),0
+constructor [private] should declaredIn class [static];,constructors().that().arePrivate().should().beDeclaredInClassesThat().areStatic(),0
+constructor[protected] should declaredIn class [protected];,constructors().that().areProtected().should().beDeclaredInClassesThat().areProtected(),0
+constructor [private] should not declaredIn class [packagePrivate];,constructors().that().arePrivate().should().notBeDeclaredInClassesThat().arePackagePrivate(),0
+Trains Failed,Trains Failed,Trains Failed
+"constructor [public (haveNameMatching ""get"")] should declaredIn class [private];","constructors().that().arePublic().and().haveNameMatching(""get"").should().beDeclaredInClassesThat().arePrivate()",0
+Trains Failed,Trains Failed,Trains Failed
+"constructor [public (packagename ""packageIdentifier1"")] should declaredIn class [public (packagename ""packageIdentifier2"")];","constructors().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier1"").should().beDeclaredInClassesThat().arePublic().andShould().beDeclaredInClassesThat().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier2"")",0
+constructor [(haveNameMatching â€œregexâ€?] should declaredIn class [public (implement â€œtypeNameâ€?];,"constructors().that().haveNameMatching(""regex"").should().beDeclaredInClassesThat().arePublic().andShould().beDeclaredInClassesThat().areDeclaredInClassesThat().implement(""typeName"")",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"constructor [packagePrivate (haveNameMatching ""regex"")] should BePackagePrivate;","constructors().that().arePackagePrivate().and().haveNameMatching(""regex"").should().bePackagePrivate()",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"constructor [private] should declareThrowableOfType ""typeName"";","constructors().that().arePrivate().should().declareThrowableOfType(""typeName"")",0
+"constructor [static (packagename ""packageIdentifier"")] should BePublic;","constructors().that().haveModifier(JavaModifier.STATIC).and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePublic()",0
+"constructor [final (packagename ""packageIdentifier"")] should BePrivate;","constructors().that().haveModifier(JavaModifier.FINAL).and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePrivate()",0
+"member[private (packagename ""packageIdentifier"")] should BeProtected;","members().that().arePrivate().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().beProtected()",0
+"constructor [public (packagename ""packageIdentifier"")] should BePackagePrivate;","constructors().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePackagePrivate()",0
+"constructor [(haveNameMatching ""regex"")] should BePublic;","constructors().that().haveNameMatching(""regex"").should().bePublic()",0
+"field [public (packagename ""packageIdentifier"")] should BePublic;","fields().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePublic()",0
+"field [private] should declaredIn class (implement ""typeName"");","fields().that().arePrivate().should().beDeclaredInClassesThat().areDeclaredInClassesThat().implement(""typeName"")",0
+"field [protected (packagename ""packageIdentifier"")] should BeProtected;","fields().that().areProtected().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().beProtected()",0
+Trains Failed,Trains Failed,Trains Failed
+"field [packagePrivate (packagename ""packageIdentifier"")] should BePackagePrivate;","fields().that().arePackagePrivate().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePackagePrivate()",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"field [(haveNameMatching ""regex"")] should declaredIn class (implement ""typeName1"");","fields().that().haveNameMatching(""regex"").should().beDeclaredInClassesThat().areDeclaredInClassesThat().implement(""typeName1"")",0
+Trains Failed,Trains Failed,Trains Failed
+field [public] should declaredIn class [public];,fields().that().arePublic().should().beDeclaredInClassesThat().arePublic(),0
+field [private] should declaredIn class [static];,fields().that().arePrivate().should().beDeclaredInClassesThat().areStatic(),0
+field [protected] should declaredIn class [protected];,fields().that().areProtected().should().beDeclaredInClassesThat().areProtected(),0
+field [private] should not declaredIn class [packagePrivate];,fields().that().arePrivate().should().notBeDeclaredInClassesThat().arePackagePrivate(),0
+Trains Failed,Trains Failed,Trains Failed
+"field [public (haveNameMatching ""get"")] should declaredIn class [private];","fields().that().arePublic().and().haveNameMatching(""get"").should().beDeclaredInClassesThat().arePrivate()",0
+Trains Failed,Trains Failed,Trains Failed
+"field [public (packagename ""packageIdentifier1"")] should declaredIn class [public (packagename ""packageIdentifier2"")];","fields().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier1"").should().beDeclaredInClassesThat().arePublic().andShould().beDeclaredInClassesThat().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier2"")",0
+"field [(haveNameMatching ""regex"")] should declaredIn class [public (implement ""typeName"")];","fields().that().haveNameMatching(""regex"").should().beDeclaredInClassesThat().arePublic().andShould().beDeclaredInClassesThat().areDeclaredInClassesThat().implement(""typeName"")",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+field[packagePrivate (haveNameMatching â€œregexâ€?] should BePackagePrivate;,"fields().that().arePackagePrivate().and().haveNameMatching(""regex"").should().bePackagePrivate()",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"field [private] should declareThrowableOfType ""typeName"";","fields().that().arePrivate().should().declareThrowableOfType(""typeName"")",0
+"field [static (packagename ""packageIdentifier"")] should BePublic;","fields().that().haveModifier(JavaModifier.STATIC).and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePublic()",0
+"field [final (packagename ""packageIdentifier"")] should BePrivate;","fields().that().haveModifier(JavaModifier.FINAL).and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePrivate()",0
+"field[private(packagename ""packageIdentifier"")] should BeProtected;","fields().that().arePrivate().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().beProtected()",0
+field[public (packagename â€œpackageIdentifierâ€?] should BePackagePrivate;,"fields().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePackagePrivate()",0
+"field [(haveNameMatching ""regex"")] should BeFinal;","fields().that().haveNameMatching(""regex"").should().beFinal()",0
+"member [public (packagename ""packageIdentifier"")] should BePublic;","members().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePublic()",0
+"member [private] should declaredIn class (implement ""typeName"");","members().that().arePrivate().should().beDeclaredInClassesThat().areDeclaredInClassesThat().implement(""typeName"")",0
+"member [protected (packagename ""packageIdentifier"")] should BeProtected;","members().that().areProtected().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().beProtected()",0
+"member [private (packagename ""packageIdentifier"")] should BePrivate;","members().that().arePrivate().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePrivate()",0
+"member [packagePrivate (packagename ""packageIdentifier"")] should BePackagePrivate;","members().that().arePackagePrivate().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePackagePrivate()",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"member [public (packagename ""packageIdentifier1"")] should declaredIn class [(packagename ""packageIdentifier2"")];","members().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier1"").should().beDeclaredInClassesThat().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier2"")",3
+"member [(haveNameMatching ""regex"")] should declaredIn class (implement ""typeName"");","members().that().haveNameMatching(""regex"").should().beDeclaredInClassesThat().areDeclaredInClassesThat().implement(""typeName"")",0
+Trains Failed,Trains Failed,Trains Failed
+member [public] should declaredIn class [public];,members().that().arePublic().should().beDeclaredInClassesThat().arePublic(),0
+member [private] should declaredIn class [static];,members().that().arePrivate().should().beDeclaredInClassesThat().areStatic(),0
+member[protected] should declaredIn class[protected];,members().that().areProtected().should().beDeclaredInClassesThat().areProtected(),0
+member [private] should not declaredIn class [packagePrivate];,members().that().arePrivate().should().notBeDeclaredInClassesThat().arePackagePrivate(),0
+member [packagePrivate] should declaredIn class [final];,members().that().arePackagePrivate().should().beDeclaredInClassesThat().areFinal(),0
+"member[public (haveNameMatching ""get"")] should declaredIn class[private];","members().that().arePublic().and().haveNameMatching(""get"").should().beDeclaredInClassesThat().arePrivate()",0
+Trains Failed,Trains Failed,Trains Failed
+"member [public (packagename ""packageIdentifier1"")] should declaredIn class [public (packagename ""packageIdentifier2"")];","members().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier1"").should().beDeclaredInClassesThat().arePublic().andShould().beDeclaredInClassesThat().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier2"")",0
+"member [(haveNameMatching ""regex"")] should declaredIn class [public (implement ""typeName"")];","members().that().haveNameMatching(""regex"").should().beDeclaredInClassesThat().arePublic().andShould().beDeclaredInClassesThat().areDeclaredInClassesThat().implement(""typeName"")",0
+"member [(haveNameMatching ""regex"")] should declaredIn class [static (packagename ""packageIdentifier"")];","members().that().haveNameMatching(""regex"").should().beDeclaredInClassesThat().areStatic().andShould().beDeclaredInClassesThat().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"")",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+member[packagePrivate (haveNameMatching â€œregexâ€?] should BePackagePrivate;,"members().that().arePackagePrivate().and().haveNameMatching(""regex"").should().bePackagePrivate()",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"member [private] should declareThrowableOfType ""typeName"";","members().that().arePrivate().should().declareThrowableOfType(""typeName"")",0
+"member [static (packagename ""packageIdentifier"")] should BePublic;","members().that().haveModifier(JavaModifier.STATIC).and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePublic()",0
+"member [final (packagename ""packageIdentifier"")] should BePrivate;","members().that().haveModifier(JavaModifier.FINAL).and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePrivate()",0
+"member[private (packagename ""packageIdentifier"")] should BeProtected;","members().that().arePrivate().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().beProtected()",0
+member[public(packagename â€œpackageIdentifierâ€?] should BePackagePrivate;,"members().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier"").should().bePackagePrivate()",0
+"member [(haveNameMatching ""regex"")] should BePublic;","members().that().haveNameMatching(""regex"").should().bePublic()",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"method[packagePrivate (packagename ""packageIdentifier1"")] should BePackagePrivate;","methods().that().arePackagePrivate().and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier1"").should().bePackagePrivate()",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"method [public static (packagename ""packageIdentifier2"")] should not declaredIn class [(packagename ""packageIdentifier1"")];","methods().that().arePublic().and().haveModifier(JavaModifier.STATIC).and().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier2"").should().notBeDeclaredInClassesThat().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier1"")",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+method [public] should declaredIn class [public];,methods().that().arePublic().should().beDeclaredInClassesThat().arePublic(),0
+method[private] should declaredIn class[private];,methods().that().arePrivate().should().beDeclaredInClassesThat().arePrivate(),0
+method[protected] should declaredIn class[protected];,methods().that().areProtected().should().beDeclaredInClassesThat().areProtected(),0
+method [final] should not declaredIn class [final];,methods().that().haveModifier(JavaModifier.FINAL).should().notBeDeclaredInClassesThat().areFinal(),0
+method [packagePrivate] should declaredIn class [packagePrivate];,methods().that().arePackagePrivate().should().beDeclaredInClassesThat().arePackagePrivate(),0
+"method[public (haveNameMatching ""get"")] should declaredIn class [final];","methods().that().arePublic().and().haveNameMatching(""get"").should().beDeclaredInClassesThat().areFinal()",0
+method [private final] should declaredIn class [packagePrivate];,methods().that().arePrivate().and().haveModifier(JavaModifier.FINAL).should().beDeclaredInClassesThat().arePackagePrivate(),0
+method [public static] should not declaredIn class [public static];,methods().that().arePublic().and().haveModifier(JavaModifier.STATIC).should().notBeDeclaredInClassesThat().arePublic().andShould().notBeDeclaredInClassesThat().areStatic(),0
+method[public static (haveNameMatching â€œregexâ€?] should declaredIn class [public (packagename â€œpackageIdentifier1â€?];,"methods().that().arePublic().and().haveModifier(JavaModifier.STATIC).and().haveNameMatching(""regex"").should().beDeclaredInClassesThat().arePublic().andShould().beDeclaredInClassesThat().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier1"")",0
+"method [protected final (haveNameMatching ""X1"")] should declaredIn class [static (packagename ""packageIdentifier1"")];","methods().that().areProtected().and().haveModifier(JavaModifier.FINAL).and().haveNameMatching(""X1"").should().beDeclaredInClassesThat().areStatic().andShould().beDeclaredInClassesThat().areDeclaredInClassesThat().resideInAPackage(""packageIdentifier1"")",0
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+"method [public (haveNameMatching ""get"")] should haveNameMatching ""String"";","methods().that().arePublic().and().haveNameMatching(""get"").should().haveNameMatching(""String"")",2
+Trains Failed,Trains Failed,Trains Failed
+Trains Failed,Trains Failed,Trains Failed
+method[public static (haveNameMatching â€œString1â€?] should haveFullName â€œString2â€?,"methods().that().arePublic().and().haveModifier(JavaModifier.STATIC).and().haveNameMatching(""String1"").should().haveFullName(""String2"")",0
+Trains Failed,Trains Failed,Trains Failed
+method[static] should BePublic;,methods().that().haveModifier(JavaModifier.STATIC).should().bePublic(),0
+method[final] should BeStatic;,methods().that().haveModifier(JavaModifier.FINAL).should().beStatic(),0
+method [private] should BeProtected;,methods().that().arePrivate().should().beProtected(),0
+method[public (packagename â€œX1â€?] should BePackagePrivate;,"methods().that().arePublic().and().areDeclaredInClassesThat().resideInAPackage(""X1"").should().bePackagePrivate()",0
+"method [(haveNameMatching ""get"")] should BePublic;","methods().that().haveNameMatching(""get"").should().bePublic()",0

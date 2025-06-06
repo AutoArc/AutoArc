@@ -1,0 +1,35 @@
+Method [public] should not declaredIn class (packagename ¡°packageIdentifier1¡±)
+method[private] should declaredIn class(implement ¡°typeName1¡±)
+method[protected] should declaredIn class (packagename ¡°packageIdentifier1¡±)
+Method [final] should not declaredIn class (packagename ¡°packageIdentifier1¡±)
+method[packagePrivate] should declaredIn class (packagename ¡°packageIdentifier1¡±)
+method[public(haveNameMatching ¡°get¡±)] should declaredIn class (packagename ¡°packageIdentifier1¡±)
+method[private final] should not declaredIn class (packagename ¡°packageIdentifier1¡±)
+method[public static(packagename ¡°packageIdentifier2¡±)] should not declaredIn class (packagename ¡°packageIdentifier1¡±)
+method[public static (haveNameMatching ¡°X1¡±)] should declaredIn class (packagename ¡°packageIdentifier1¡±)
+method[protected final (haveNameMatching ¡°X1¡±)] should declaredIn class (packagename ¡°packageIdentifier1¡±)
+Method [public] should declaredIn class [public]
+method[private] should declaredIn class[private]
+method[protected] should declaredIn class [protected]
+Method [final] should not declaredIn class [final]
+method[packagePrivate] should declaredIn class [packagePrivate]
+method[public(haveNameMatching ¡°get¡±)] should declaredIn class [final]
+method[private final] should declaredIn class [packagePrivate]
+method[public static(packagename ¡°packageIdentifier¡±)] should not declaredIn class [public static]
+method[public static (haveNameMatching ¡°regex¡±)] should declaredIn class [public(packagename ¡°packageIdentifier1¡±)]
+method[protected final (haveNameMatching ¡°regex¡±)] should declaredIn class [static(packagename ¡°packageIdentifier1¡±)]
+Method [public] should beAnnotatedWith(¡°annotatedTypeName ¡±)
+method[private] should declaredIn (¡°className¡±)
+method[protected] should haveParameterTypes ¡°typeName¡±
+Method [final] should haveFullNameMatching( ¡°Regex¡±)
+method[packagePrivate] should haveNameEndingWith(¡°String¡±)
+method[public(haveNameStarting ¡°get¡±)] should haveNameStartingWith(¡°String¡±)
+method[private final] should haveRawReturnType ¡°returnType¡±
+method[public static(packagename ¡°packageIdentifier2¡±)] should haveRawParameterTypes(¡°ParameterType¡±)
+method[public static (haveNameMatching ¡°String1¡±)] should haveFullName ¡°String2¡±
+method[protected final (haveNameMatching ¡°String1¡±)] should haveNameContaining ¡°String2¡±
+method[static] should BePublic.
+method[final] should BeStatic.
+method[private] should BeProtected.
+method[public(packagename ¡°packageIdentifier¡±)] should BePackagePrivate
+method[(haveNameMatching ¡°regex¡±)] should BePublic.

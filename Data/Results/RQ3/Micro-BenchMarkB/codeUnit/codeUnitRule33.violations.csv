@@ -1,0 +1,1 @@
+1,code units that are private and are declared in classes that reside in a package 'packageIdentifier' should be protected,Method <packageIdentifier.InvalidPrivateMethod.privateMethod()> does not have modifier PROTECTED in (InvalidPrivateMethod.java:6),)> does not have modifier PROTECTED in (InvalidPrivateMethod.java,MEDIUM

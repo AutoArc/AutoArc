@@ -1,0 +1,1 @@
+1,members that are private should be declared in classes that reside in a package 'packageIdentifier',Field <otherpackage.OtherClass.value> is not declared in classes that reside in a package 'packageIdentifier' in (OtherClass.java:0),OtherClass.java,MEDIUM

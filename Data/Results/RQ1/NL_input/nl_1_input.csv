@@ -1,0 +1,210 @@
+Public classes should be extended by classes in package 'packageIdentifier'.
+Static classes should access classes in package 'packageIdentifier'.
+Public interface classes should implement classes matching 'myclass'.
+Public classes in package 'packageIdentifier' should depend on classes matching 'myclass'.
+Classes implementing 'typeName' should be extended by classes matching 'className'.
+Classes implementing 'typeName' should not implement classes matching 'className'.
+Public classes implementing 'typeName' should not access classes annotated with 'annotationTypeName'.
+Classes implementing 'typeName' should access classes in package 'packageIdentifier1'.
+Inner classes in package 'packageIdentifier' should not implement classes matching 'className'.
+Public classes should depend on classes in package 'packageIdentifier'.
+Public classes should not be extended by private classes.
+Public classes should not access private classes.
+Final classes should not implement final classes.
+Local classes should not depend on local classes.
+Interface classes should not implement static classes.
+Top-level classes should not implement private classes.
+Protected classes should implement private classes in package 'packageIdentifier1'.
+Public classes should be accessed by static classes matching 'className'.
+Protected classes should not implement private classes.
+Package-private classes should not access private methods.
+Public classes should have names matching 'classname'.
+Public classes should not be assignable to 'typeName'.
+Public classes should not have parameter types of 'typeName'.
+Public classes should not have full names matching the regex.
+Public classes should have a return type of 'typeName'.
+Public classes should have names containing the regex.
+Public classes should not have names ending with the regex.
+Private classes should have names starting with the regex.
+Protected classes should declare throwable types of 'typeName'.
+Package-private classes should not be annotated with 'annotationTypeName'.
+Static classes should be public.
+Anonymous classes should be public.
+Public classes should be protected.
+Public classes should be abstract.
+Anonymous classes should be enums.
+Public methods should not be declared in classes in package 'packageIdentifier1'.
+Private methods should be declared in classes implementing 'typeName1'.
+Protected methods should be declared in classes in package 'packageIdentifier1'.
+Final methods should not be declared in classes in package 'packageIdentifier1'.
+Package-private methods should be declared in classes in package 'packageIdentifier1'.
+Public methods with names matching with 'get' should be declared in classes in package 'packageIdentifier1'.
+Private final methods should not be declared in classes in package 'packageIdentifier1'.
+Public static methods in package 'packageIdentifier2' should not be declared in classes in package 'packageIdentifier1'.
+Public static methods with names matching with 'X1' should be declared in classes in package 'packageIdentifier1'.
+Protected final methods with names matching with 'X1' should be declared in classes in package 'packageIdentifier1'.
+Public methods should be declared in public classes.
+Private methods should be declared in private classes.
+Protected methods should be declared in protected classes.
+Final methods should not be declared in final classes.
+Package-private methods should be declared in package-private classes.
+Public methods with names matching 'get' should be declared in final classes.
+Private final methods should be declared in package-private classes.
+Public static methods in package 'packageIdentifier' should not be declared in public static classes.
+Public static methods with names matching with 'regex' should be declared in public classes in package 'packageIdentifier1'.
+Protected final methods with names matching with 'X1' should be declared in static classes in package 'packageIdentifier1'.
+Public methods should be annotated with the specified annotation.
+Private methods should be declared in the specified class.
+Protected methods should have parameter types of 'typeName'.
+Final methods should have full names matching 'String'.
+Package-private methods should have names ending with 'String'.
+Public methods with names matching with 'get' should have names matching with 'String'.
+Private final methods should have raw return types of 'returnType'.
+Public static methods in package 'packageIdentifier2' should have raw parameter types of 'ParameterType'.
+Public static methods with names matching with 'String1' should have full names of 'String2'.
+Protected final methods with names matching with 'String1' should have names containing 'String2'.
+Static methods should be public.
+Final methods should be static.
+Private methods should be protected.
+Public methods in package 'X1' should be package-private.
+Methods with names matching with 'get' should be public.
+Public code units should be declared in classes in package 'packageIdentifier'.
+Private code units should be declared in classes implementing 'typeName'.
+Protected code units should be declared in classes in package 'packageIdentifier'.
+Private code units should not be declared in classes in package 'packageIdentifier'.
+Package-private code units should be declared in classes in package 'packageIdentifier'.
+Public code units with names matching with 'Regex' should be declared in classes in package 'packageIdentifier'.
+Private code units should not be declared in classes in package 'packageIdentifier'.
+Public code units in package 'packageIdentifier1' should be declared in classes in package 'packageIdentifier2'.
+Code units with names matching with 'Regex' should be declared in classes implementing 'typeName'.
+Code units with names matching with 'Regex' should be declared in classes in package 'packageIdentifier'.
+Public code units should be declared in public classes.
+Private code units should be declared in static classes.
+Protected code units should be declared in protected classes.
+Private code units should not be declared in package-private classes.
+Package-private code units should be declared in final classes.
+Public code units with names matching with 'get' should be declared in private classes.
+Private code units should not be declared in classes in package 'packageIdentifier1'.
+Public code units in package 'packageIdentifier1' should be declared in public classes in package 'packageIdentifier2'.
+Code units with names matching with 'Regex' should be declared in public classes implementing 'typeName'.
+Code units with names matching with 'Regex' should be declared in static classes in package 'packageIdentifier'.
+Private code units should be annotated with 'annotationTypeName'.
+Protected code units should have full names matching the regex.
+Private code units should have the modifier 'JavaModifier'.
+Package-private code units should have names matching the regex.
+Public code units should have names ending with the regex.
+Private code units should not be declared in classes in package 'packageIdentifier'.
+Public code units should have names starting with the regex.
+Public code units should have raw return types of 'typeName'.
+Private code units should have raw parameter types of 'typeName'.
+Private code units should declare throwable types of 'typeName'.
+Static code units in package 'packageIdentifier' should be public.
+Final code units in package 'packageIdentifier' should be private.
+Private code units in package 'packageIdentifier' should be protected.
+Public code units in package 'packageIdentifier' should be package-private.
+Code units with names matching with 'regex' should be public.
+Public fields should be declared in classes in package 'packageIdentifier'.
+Private fields should be declared in classes implementing 'typeName'.
+Protected fields should be declared in classes in package 'packageIdentifier'.
+Private fields should not be declared in classes in package 'packageIdentifier'.
+Package-private fields should be declared in classes in package 'packageIdentifier'.
+Public fields with names matching with 'get' should be declared in classes in package 'packageIdentifier'.
+Private fields should not be declared in classes in package 'packageIdentifier'.
+Public fields in package 'packageIdentifier1' should be declared in classes in package 'packageIdentifier2'.
+Fields with names matching with 'regex' should be declared in classes implementing 'typeName1'.
+Fields with names matching with 'regex' should be declared in classes in package 'packageIdentifier'.
+Public fields should be declared in public classes.
+Private fields should be declared in static classes.
+Protected fields should be declared in protected classes.
+Private fields should not be declared in package-private classes.
+Package-private fields should be declared in final classes.
+Public fields with names matching with 'get' should be declared in private classes.
+Private fields should not be declared in classes in package 'packageIdentifier'.
+Public fields in package 'packageIdentifier1' should be declared in public classes in package 'packageIdentifier2'.
+Fields with names matching with 'regex' should be declared in public classes implementing 'typeName'.
+Fields with names matching with 'regex' should be declared in static classes in package 'packageIdentifier'.
+Private fields should be annotated with 'annotatedTypeName'.
+Protected fields should have full names matching the regex.
+Private fields should have the modifier 'JavaModifier'.
+Package-private fields should have names matching the regex.
+Public fields should have names ending with the regex.
+Private fields should not be declared in classes in package 'packageIdentifier'.
+Public fields should have names starting with 'typeName'.
+Private fields should have raw types of 'typeName'.
+Public fields should have raw types of 'typeName'.
+Private fields should declare throwable types of 'typeName'.
+Static fields in package 'packageIdentifier' should be public.
+Final fields in package 'packageIdentifier' should be private.
+Private fields in package 'packageIdentifier' should be protected.
+Public fields in package 'packageIdentifier' should be package-private.
+Fields with names matching with 'regex' should be final.
+Public members should be declared in classes in package 'packageIdentifier'.
+Private members should be declared in classes implementing 'typeName'.
+Protected members should be declared in classes in package 'packageIdentifier'.
+Private members should be declared in classes in package 'packageIdentifier'.
+Package-private members should be declared in classes in package 'packageIdentifier'.
+Public members with names matching with 'get' should be declared in classes in package 'packageIdentifier'.
+Private members should not be declared in classes in package 'packageIdentifier'.
+Public members in package 'packageIdentifier1' should be declared in classes in package 'packageIdentifier2'.
+Members with names matching with 'regex' should be declared in classes implementing 'typeName'.
+Members with names matching with 'regex' should be declared in classes in package 'packageIdentifier1'.
+Public members should be declared in public classes.
+Private members should be declared in static classes.
+Protected members should be declared in protected classes.
+Private members should not be declared in package-private classes.
+Package-private members should be declared in final classes.
+Public members with names matching with 'get' should be declared in private classes.
+Private members should not be declared in classes in package 'packageIdentifier'.
+Public members in package 'packageIdentifier1' should be declared in public classes in package 'packageIdentifier2'.
+Members with names matching with 'regex' should be declared in public classes implementing 'typeName'.
+Members with names matching with 'regex' should be declared in static classes in package 'packageIdentifier'.
+Private members should be annotated with 'annotatedTypeName'.
+Protected members should have full names matching the regex.
+Private members should have the modifier 'JavaModifier'.
+Package-private members should have names matching the regex.
+Public members should have names ending with the regex.
+Private members should not be declared in classes in package 'packageIdentifier'.
+Public members should have names starting with the regex.
+Private members should have names starting with the regex.
+Public members should have names starting with the regex.
+Private members should declare throwable types of 'typeName'.
+Static members in package 'packageIdentifier' should be public.
+Final members in package 'packageIdentifier' should be private.
+Private members in package 'packageIdentifier' should be protected.
+Public members in package 'packageIdentifier' should be package-private.
+Members matching the regex should be public.
+Public constructors should be declared in classes in package 'packageIdentifier'.
+Private constructors should be declared in classes implementing 'typeName'.
+Protected constructors should be declared in classes in package 'packageIdentifier'.
+Private constructors should be declared in classes in package 'packageIdentifier'.
+Package-private constructors should be declared in classes in package 'packageIdentifier'.
+Public constructors with names matching with 'get' should be declared in classes in package 'packageIdentifier'.
+Private constructors should not be declared in classes in package 'packageIdentifier'.
+Public constructors in package 'packageIdentifier1' should be declared in classes in package 'packageIdentifier2'.
+Constructors with names matching with 'regex' should be declared in classes implementing 'typeName'.
+Constructors with names matching with 'regex' should be declared in classes in package 'packageIdentifier1'.
+Public constructors should be declared in public classes.
+Private constructors should be declared in static classes.
+Protected constructors should be declared in protected classes.
+Private constructors should not be declared in package-private classes.
+Package-private constructors should be declared in final classes.
+Public constructors with names matching with 'get' should be declared in private classes.
+Private constructors should not be declared in classes in package 'packageIdentifier'.
+Public constructors in package 'packageIdentifier1' should be declared in public classes in package 'packageIdentifier2'.
+Constructors with names matching with 'regex' should be declared in public classes implementing 'typeName'.
+Constructors with names matching with 'regex' should be declared in static classes in package 'packageIdentifier'.
+Private constructors should be annotated with 'annotatedTypeName'.
+Protected constructors should have full names matching the regex.
+Private constructors should have the modifier 'JavaModifier'.
+Package-private constructors should have names matching the regex.
+Public constructors should have names ending with the regex.
+Private constructors should not be declared in classes in package 'packageIdentifier'.
+Public constructors should have names starting with the regex.
+Private constructors should have names starting with the regex.
+Public constructors should have names starting with the regex.
+Private constructors should declare throwable types of 'typeName'.
+Static constructors in package 'packageIdentifier' should be public.
+Final constructors in package 'packageIdentifier' should be private.
+Private members in package 'packageIdentifier' should be protected.
+Public constructors in package 'packageIdentifier' should be package-private.
+Constructors matching the regex should be public.

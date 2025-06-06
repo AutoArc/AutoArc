@@ -1,0 +1,35 @@
+member [public] should declaredIn class (packagename ¡°packageIdentifier¡±)
+member [private] should declaredIn class(implement ¡°typeName¡±)
+member [protected] should declaredIn class (packagename ¡°packageIdentifier¡±)
+member [private] should declaredIn class (packagename ¡°packageIdentifier¡±)
+member [packagePrivate] should declaredIn class (packagename ¡°packageIdentifier¡±)
+member [public(hameMatching ¡°get¡±)] should declaredIn class (packagename ¡°packageIdentifier¡±)
+member [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+member [public (packagename ¡°packageIdentifier1¡±)] should declaredIn class (packagename ¡°packageIdentifier2¡±)
+member [(haveNameMatching ¡°regex¡±)] should declaredIn class (implement ¡°typeName¡±)
+member [(haveNameMatching ¡°regex¡±)] should declaredIn class (packagename ¡°packageIdentifier1¡±)
+member [public] should declaredIn class [public]
+member [private] should declaredIn class[static]
+member [protected] should declaredIn class[protected]
+member [private] should not declaredIn class [packagePrivate]
+member [packagePrivate] should declaredIn class [final]
+member [public(haveNameMatching ¡°get¡±)] should declaredIn class [private]
+member [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+member [public (packagename ¡°packageIdentifier1¡±)] should declaredIn class [public(packagename ¡°packageIdentifier2¡±)]
+member [(haveNameMatching ¡°regex¡±)] should declaredIn class [public(implement ¡°typeName¡±)]
+member [(haveNameMatching ¡°regex¡±)] should declaredIn class [static(packagename ¡°packageIdentifier¡±)]
+member [private] should beAnnotatedWith (¡°annotatedTypeName¡±)
+member [protected] should haveFullNameMatching (¡°regex¡±)
+member [private] should haveModifier(¡°JavaModifier¡±)
+member [packagePrivate] should haveNameMatching (¡°regex¡±)
+member [public] should haveNameEndingWith (¡°regex¡±)
+member [private] should not declaredIn class (packagename ¡°packageIdentifier¡±)
+member [public] should haveNameStartingWith (¡°regex¡±)
+member [private] should haveNameStartingWith (¡°regex¡±)
+member [public] should haveNameStartingWith (¡°regex¡±)
+member [private] should declareThrowableOfType (¡°typeName¡±)
+member [static(packagename ¡°packageIdentifier¡±)] should BePublic.
+member [final(packagename ¡°packageIdentifier¡±)] should BePrivate.
+member [private(packagename ¡°packageIdentifier¡±)] should BeProtected.
+member [public(packagename ¡°packageIdentifier¡±)] should BePackagePrivate.
+member [(matches (¡°regex¡±)] should BePublic.

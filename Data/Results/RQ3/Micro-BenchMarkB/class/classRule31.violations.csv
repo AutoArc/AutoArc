@@ -1,0 +1,1 @@
+1,classes that have modifier STATIC should be public,Class <packageIdentifier.OuterInvalidClass$InvalidStaticClass> does not have modifier PUBLIC in (OuterInvalidClass.java:0),OuterInvalidClass.java,MEDIUM

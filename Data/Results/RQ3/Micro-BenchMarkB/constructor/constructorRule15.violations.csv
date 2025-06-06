@@ -1,0 +1,1 @@
+1,constructors that are package private should be declared in classes that have modifier FINAL,Constructor <packageIdentifier.InvalidClass.<init>()> is not declared in classes that have modifier FINAL in (InvalidClass.java:6),)> is not declared in classes that have modifier FINAL in (InvalidClass.java,MEDIUM

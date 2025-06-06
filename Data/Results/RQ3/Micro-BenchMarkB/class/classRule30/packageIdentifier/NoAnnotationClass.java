@@ -1,0 +1,4 @@
+package packageIdentifier;
+
+class NoAnnotationClass {
+}

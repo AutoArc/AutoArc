@@ -1,0 +1,2 @@
+1,methods that have modifier FINAL should have full name matching '.*String.*',Method <otherpackage.AnotherInvalid.calculate()> does not have full name matching '.*String.*' in (AnotherInvalid.java:7),)> does not have full name matching '.*String.*' in (AnotherInvalid.java,MEDIUM
+2,methods that have modifier FINAL should have full name matching '.*String.*',Method <otherpackage.InvalidMethodName.process()> does not have full name matching '.*String.*' in (InvalidMethodName.java:7),)> does not have full name matching '.*String.*' in (InvalidMethodName.java,MEDIUM

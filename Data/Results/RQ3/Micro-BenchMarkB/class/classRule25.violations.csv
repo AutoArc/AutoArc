@@ -1,0 +1,1 @@
+1,classes that are public should have modifier ABSTRACT,Class <packageIdentifier.InvalidConcreteClass> does not have modifier ABSTRACT in (InvalidConcreteClass.java:0),InvalidConcreteClass.java,MEDIUM

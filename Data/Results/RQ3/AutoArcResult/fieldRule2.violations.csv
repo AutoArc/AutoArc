@@ -1,0 +1,1 @@
+1,fields that are private should be declared in classes that implement mypackage.MyInterface,Field <otherpackage.NonCompliantClass.count> is not declared in classes that implement mypackage.MyInterface in (NonCompliantClass.java:0),NonCompliantClass.java,MEDIUM

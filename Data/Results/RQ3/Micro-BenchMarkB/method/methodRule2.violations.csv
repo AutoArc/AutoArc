@@ -1,0 +1,1 @@
+1,methods that are private should be declared in classes that implement mypackage.typeName1,Method <otherpackage.NonCompliantClass.secretMethod()> is not declared in classes that implement mypackage.typeName1 in (NonCompliantClass.java:8),)> is not declared in classes that implement mypackage.typeName1 in (NonCompliantClass.java,MEDIUM

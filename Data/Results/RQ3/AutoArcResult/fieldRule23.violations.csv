@@ -1,0 +1,1 @@
+1,fields that are public should have full name matching '.*MyProtectedField.*',Field <otherpackage.OuterInvalid.regexField> does not have full name matching '.*MyProtectedField.*' in (OuterInvalid.java:0),OuterInvalid.java,MEDIUM

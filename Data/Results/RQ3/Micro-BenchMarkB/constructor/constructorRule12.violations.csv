@@ -1,0 +1,1 @@
+1,constructors that are private should be declared in classes that have modifier STATIC,Constructor <packageIdentifier.InvalidClass.<init>()> is not declared in classes that have modifier STATIC in (InvalidClass.java:6),)> is not declared in classes that have modifier STATIC in (InvalidClass.java,MEDIUM

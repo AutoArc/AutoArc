@@ -1,0 +1,1 @@
+1,fields that are public and are declared in classes that reside in a package 'packageIdentifier1' should be declared in classes that reside in a package 'packageIdentifier2',Field <packageIdentifier1.InvalidField.myField> is not declared in classes that reside in a package 'packageIdentifier2' in (InvalidField.java:0),InvalidField.java,MEDIUM

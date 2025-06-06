@@ -1,0 +1,1 @@
+1,members that are public and have name matching '.*get.*' should be declared in classes that reside in a package 'packageIdentifier',Method <otherpackage.OtherClass.get()> is not declared in classes that reside in a package 'packageIdentifier' in (OtherClass.java:6),)> is not declared in classes that reside in a package 'packageIdentifier' in (OtherClass.java,MEDIUM

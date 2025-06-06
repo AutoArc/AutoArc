@@ -1,0 +1,1 @@
+1,methods that are public should be annotated with @SpecifiedAnnotation,Method <otherpackage.NonCompliantMethodClass.exposed()> is not annotated with @SpecifiedAnnotation in (NonCompliantMethodClass.java:7),)> is not annotated with @SpecifiedAnnotation in (NonCompliantMethodClass.java,MEDIUM

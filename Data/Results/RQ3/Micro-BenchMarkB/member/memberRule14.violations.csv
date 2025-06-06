@@ -1,0 +1,2 @@
+1,members that are private should be declared in classes that are not package private,Field <packageIdentifier.InvalidClass.value> is not declared in classes that are not package private in (InvalidClass.java:0),InvalidClass.java,MEDIUM
+2,members that are private should be declared in classes that are not package private,Method <packageIdentifier.InvalidClass.getValue()> is not declared in classes that are not package private in (InvalidClass.java:8),)> is not declared in classes that are not package private in (InvalidClass.java,MEDIUM

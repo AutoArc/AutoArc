@@ -1,0 +1,210 @@
+Public class extended by packageIdentifier.
+Static class accesses packageIdentifier.
+Public interface implements myclass.
+Public class in packageIdentifier depends on myclass.
+Class implementing typeName extended by className.
+Class implementing typeName does not implement className.
+Public class implementing typeName does not access annotationTypeName.
+Class implementing typeName accesses packageIdentifier1.
+Inner class in packageIdentifier does not implement className.
+Public class depends on packageIdentifier.
+Public class not extended by private class.
+Public class does not access private class.
+Final class does not implement final class.
+Local class does not depend on local class.
+Interface does not implement static class.
+Top-level class does not implement private class.
+Protected class implements private class in packageIdentifier1.
+Public class accessed by static className.
+Protected class does not implement private class.
+Package-private class does not access private method.
+Public class name matches classname.
+Public class not assignable to typeName.
+Public class does not have parameter types typeName.
+Public class full name does not match regex.
+Public class has return type typeName.
+Public class name contains regex.
+Public class name does not end with regex.
+Private class name matchs with regex.
+Protected class declares throwable typeName.
+Package-private class not annotated with annotationTypeName.
+Static class is public.
+Anonymous class is public.
+Public class is protected.
+Public class is abstract.
+Anonymous class is enum.
+Public code unit in packageIdentifier.
+Private code unit in class implementing typeName.
+Protected code unit in packageIdentifier.
+Private code unit not in packageIdentifier.
+Package-private code unit in packageIdentifier.
+"Public code unit matching with Regex"" in packageIdentifier."""
+Private code unit not in packageIdentifier.
+Public code unit from packageIdentifier1 in packageIdentifier2.
+"Code unit matching with Regex"" in class implementing typeName."""
+"Code unit matching with Regex"" in packageIdentifier."""
+Public code unit in public class.
+Private code unit in static class.
+Protected code unit in protected class.
+Private code unit not in package-private class.
+Package-private code unit in final class.
+"Public code unit matching with get"" in private class."""
+Private code unit not in packageIdentifier1.
+Public code unit from packageIdentifier1 in packageIdentifier2 public class.
+"Code unit matching with Regex"" in public class implementing typeName."""
+"Code unit matching with Regex"" in static class in packageIdentifier."""
+Private code unit annotated with annotationTypeName.
+Protected code unit with full name matching regex.
+Private code unit with JavaModifier.
+Package-private code unit with name matching regex.
+Public code unit with name ending with regex.
+Private code unit not in packageIdentifier.
+Public code unit with name starting with regex.
+Public code unit with raw return type typeName.
+Private code unit with raw parameter types typeName.
+Private code unit declaring throwable of type typeName.
+Static code unit in packageIdentifier should be public.
+Final code unit in packageIdentifier should be private.
+Private code unit in packageIdentifier should be protected.
+Public code unit in packageIdentifier should be package-private.
+Code unit matching with regex should be public.
+Public constructor in packageIdentifier.
+Private constructor in class implementing typeName.
+Protected constructor in packageIdentifier.
+Private constructor in packageIdentifier.
+Package-private constructor in packageIdentifier.
+"Public constructor matching with get"" in packageIdentifier."""
+Private constructor not in packageIdentifier.
+Public constructor from packageIdentifier1 in packageIdentifier2.
+Constructor matching with regex in class implementing typeName.
+Constructor matching with regex in packageIdentifier1.
+Public constructor in public class.
+Private constructor in static class.
+Protected constructor in protected class.
+Private constructor not in package-private class.
+Package-private constructor in final class.
+"Public constructor matching with get"" in private class."""
+Private constructor not in packageIdentifier.
+Public constructor from packageIdentifier1 in packageIdentifier2 public class.
+Constructor matching with regex in public class implementing typeName.
+Constructor matching with regex in static class in packageIdentifier.
+Private constructor annotated with annotatedTypeName.
+Protected constructor with full name matching regex.
+Private constructor with JavaModifier.
+Package-private constructor with name matching regex.
+Public constructor with name ending with regex.
+Private constructor not in packageIdentifier.
+Public constructor with name starting with regex.
+Private constructor with name starting with regex.
+Public constructor with name starting with regex.
+Private constructor declaring throwable of type typeName.
+Static constructor in packageIdentifier should be public.
+Final constructor in packageIdentifier should be private.
+Private member in packageIdentifier should be protected.
+Public constructor in packageIdentifier should be package-private.
+Constructor matching regex should be public.
+Public field in packageIdentifier.
+Private field in class implementing typeName.
+Protected field in packageIdentifier.
+Private field not in packageIdentifier.
+Package-private field in packageIdentifier.
+"Public field matching with get"" in packageIdentifier."""
+Private field not in packageIdentifier.
+Public field from packageIdentifier1 in packageIdentifier2.
+Field matching with regex in class implementing typeName1.
+Field matching with regex in packageIdentifier.
+Public field in public class.
+Private field in static class.
+Protected field in protected class.
+Private field not in package-private class.
+Package-private field in final class.
+"Public field matching with get"" in private class."""
+Private field not in packageIdentifier.
+Public field from packageIdentifier1 in packageIdentifier2 public class.
+Field matching with regex in public class implementing typeName.
+Field matching with regex in static class in packageIdentifier.
+Private field annotated with annotatedTypeName.
+Protected field with full name matching regex.
+Private field with JavaModifier.
+Package-private field with name matching regex.
+Public field with name ending with regex.
+Private field not in packageIdentifier.
+Public field with name starting with typeName.
+Private field with raw type typeName.
+Public field with raw type typeName.
+Private field declaring throwable of type typeName.
+Static field in packageIdentifier should be public.
+Final field in packageIdentifier should be private.
+Private field in packageIdentifier should be protected.
+Public field in packageIdentifier should be package-private.
+Field matching with regex should be final.
+Public member in packageIdentifier.
+Private member in class implementing typeName.
+Protected member in packageIdentifier.
+Private member in packageIdentifier.
+Package-private member in packageIdentifier.
+"Public member matching with get"" in packageIdentifier."""
+Private member not in packageIdentifier.
+Public member from packageIdentifier1 in packageIdentifier2.
+Member matching with regex in class implementing typeName.
+Member matching with regex in packageIdentifier1.
+Public member in public class.
+Private member in static class.
+Protected member in protected class.
+Private member not in package-private class.
+Package-private member in final class.
+"Public member matching with get"" in private class."""
+Private member not in packageIdentifier.
+Public member from packageIdentifier1 in packageIdentifier2 public class.
+Member matching with regex in public class implementing typeName.
+Member matching with regex in static class in packageIdentifier.
+Private member annotated with annotatedTypeName.
+Protected member with full name matching regex.
+Private member with JavaModifier.
+Package-private member with name matching regex.
+Public member with name ending with regex.
+Private member not in packageIdentifier.
+Public member with name starting with regex.
+Private member with name starting with regex.
+Public member with name starting with regex.
+Private member declaring throwable of type typeName.
+Static member in packageIdentifier should be public.
+Final member in packageIdentifier should be private.
+Private member in packageIdentifier should be protected.
+Public member in packageIdentifier should be package-private.
+Member matching regex should be public.
+Public method not in packageIdentifier1.
+Private method in class implementing typeName1.
+Protected method in packageIdentifier1.
+Final method not in packageIdentifier1.
+Package-private method in packageIdentifier1.
+"Public method matching with get"" in packageIdentifier1."""
+Private final method not in packageIdentifier1.
+Public static method from packageIdentifier2 not in packageIdentifier1.
+"Public static method matching with X1"" in packageIdentifier1."""
+"Protected final method matching with X1"" in packageIdentifier1."""
+Public method in public class.
+Private method in private class.
+Protected method in protected class.
+Final method not in final class.
+Package-private method in package-private class.
+"Public method matching with get"" in final class."""
+Private final method in package-private class.
+Public static method not in public static class.
+Public static method matching with regex in packageIdentifier1 public class.
+"Protected final method matching with X1"" in static class in packageIdentifier1."""
+Public method annotated with .
+Private method in className.
+Protected method with parameter types typeName.
+"Final method with full name matching String""."""
+"Package-private method with name ending with String""."""
+"Public method matching with get"" and name matching with ""String""."""
+Private final method with raw return type returnType.
+Public static method with raw parameter types ParameterType.
+"Public static method matching with String1"" with full name ""String2""."""
+"Protected final method matching with String1"" containing ""String2""."""
+Static method should be public.
+Final method should be static.
+Private method should be protected.
+Public method in X1 should be package-private.
+"Method matching with get"" should be public."""

@@ -1,0 +1,210 @@
+A public class should only be extended by classes within the specified package.
+A static class should only access classes within the specified package.
+"A public interface should implement a class matching the name myclass""."""
+"A public class in the specified package should depend on a class matching myclass""."""
+"A class implementing typeName"" should be extended by a class matching ""className""."""
+"A class implementing typeName"" should not implement a class matching ""className""."""
+"A public class implementing typeName"" should not access a class annotated with ""annotationTypeName""."""
+"A class implementing typeName"" should access a class within the specified package."""
+"An inner class in the specified package should not implement a class matching className""."""
+A public class should depend on a class within the specified package.
+A public class should not be extended by a private class.
+A public class should not access a private class.
+A final class should not implement another final class.
+A local class should not depend on another local class.
+An interface should not implement a static class.
+A top-level class should not implement a private class.
+A protected class should implement a private class in the specified package.
+"A public class should be accessed by a static class matching className""."""
+A protected class should not implement a private class.
+A package-private class should not access a private method.
+"A public class should have a name matching classname""."""
+A public class should not be assignable to the specified type.
+"A public class should not have parameter types matching typeName""."""
+A public class should not have a full name matching the specified regex.
+"A public class should have a return type matching typeName""."""
+A public class should have a name containing the specified regex.
+A public class should not have a name ending with the specified regex.
+A private class should have a name starting with the specified regex.
+A protected class should declare a throwable of the specified type.
+A package-private class should not be annotated with the specified annotation type.
+A static class should be public.
+An anonymous class should be public.
+A public class should be protected.
+A public class should be abstract.
+An anonymous class should be an enum.
+A public codeUnit should be declared in a class within the specified package.
+A private codeUnit should be declared in a class implementing the specified type.
+A protected codeUnit should be declared in a class within the specified package.
+A private codeUnit should not be declared in a class within the specified package.
+A package-private codeUnit should be declared in a class within the specified package.
+A public codeUnit with a name matching the specified regex should be declared in a class within the specified package.
+A private codeUnit should not be declared in a class within the specified package.
+A public codeUnit in the specified package should be declared in a class within another specified package.
+A codeUnit with a name matching the specified regex should be declared in a class implementing the specified type.
+A codeUnit with a name matching the specified regex should be declared in a class within the specified package.
+A public codeUnit should be declared in a public class.
+A private codeUnit should be declared in a static class.
+A protected codeUnit should be declared in a protected class.
+A private codeUnit should not be declared in a package-private class.
+A package-private codeUnit should be declared in a final class.
+"A public codeUnit with a name matching get"" should be declared in a private class."""
+A private codeUnit should not be declared in a class within the specified package.
+A public codeUnit in the specified package should be declared in a public class within another specified package.
+A codeUnit with a name matching the specified regex should be declared in a public class implementing the specified type.
+A codeUnit with a name matching the specified regex should be declared in a static class within the specified package.
+A private codeUnit should be annotated with the specified annotation type.
+A protected codeUnit should have a full name matching the specified regex.
+A private codeUnit should have the specified Java modifier.
+A package-private codeUnit should have a name matching the specified regex.
+A public codeUnit should have a name ending with the specified regex.
+A private codeUnit should not be declared in a class within the specified package.
+A public codeUnit should have a name starting with the specified regex.
+A public codeUnit should have a raw return type matching the specified type.
+A private codeUnit should have raw parameter types matching the specified type.
+A private codeUnit should declare a throwable of the specified type.
+A static codeUnit in the specified package should be public.
+A final codeUnit in the specified package should be private.
+A private codeUnit in the specified package should be protected.
+A public codeUnit in the specified package should be package-private.
+A codeUnit with a name matching the specified regex should be public.
+A public constructor should be declared in a class within the specified package.
+A private constructor should be declared in a class implementing the specified type.
+A protected constructor should be declared in a class within the specified package.
+A private constructor should be declared in a class within the specified package.
+A package-private constructor should be declared in a class within the specified package.
+"A public constructor with a name matching ""get"" should be declared in a class within the specified package."
+A private constructor should not be declared in a class within the specified package.
+A public constructor in the specified package should be declared in a class within another specified package.
+A constructor with a name matching the specified regex should be declared in a class implementing the specified type.
+A constructor with a name matching the specified regex should be declared in a class within the specified package.
+A public constructor should be declared in a public class.
+A private constructor should be declared in a static class.
+A protected constructor should be declared in a protected class.
+A private constructor should not be declared in a package-private class.
+A package-private constructor should be declared in a final class.
+"A public constructor with a name matching ""get"" should be declared in a private class."
+A private constructor should not be declared in a class within the specified package.
+A public constructor in the specified package should be declared in a public class within another specified package.
+A constructor with a name matching the specified regex should be declared in a public class implementing the specified type.
+A constructor with a name matching the specified regex should be declared in a static class within the specified package.
+A private constructor should be annotated with the specified annotation type.
+A protected constructor should have a full name matching the specified regex.
+A private constructor should have the specified Java modifier.
+A package-private constructor should have a name matching the specified regex.
+A public constructor should have a name ending with the specified regex.
+A private constructor should not be declared in a class within the specified package.
+A public constructor should have a name starting with the specified regex.
+A private constructor should have a name starting with the specified regex.
+A public constructor should have a name starting with the specified regex.
+A private constructor should declare a throwable of the specified type.
+A static constructor in the specified package should be public.
+A final constructor in the specified package should be private.
+A private member in the specified package should be protected.
+A public constructor in the specified package should be package-private.
+A constructor matching the specified regex should be public.
+A public field should be declared in a class within the specified package.
+A private field should be declared in a class implementing the specified type.
+A protected field should be declared in a class within the specified package.
+A private field should not be declared in a class within the specified package.
+A package-private field should be declared in a class within the specified package.
+"A public field with a name matching get"" should be declared in a class within the specified package."""
+A private field should not be declared in a class within the specified package.
+A public field in the specified package should be declared in a class within another specified package.
+A field with a name matching the specified regex should be declared in a class implementing the specified type.
+A field with a name matching the specified regex should be declared in a class within the specified package.
+A public field should be declared in a public class.
+A private field should be declared in a static class.
+A protected field should be declared in a protected class.
+A private field should not be declared in a package-private class.
+A package-private field should be declared in a final class.
+"A public field with a name matching get"" should be declared in a private class."""
+A private field should not be declared in a class within the specified package.
+A public field in the specified package should be declared in a public class within another specified package.
+A field with a name matching the specified regex should be declared in a public class implementing the specified type.
+A field with a name matching the specified regex should be declared in a static class within the specified package.
+A private field should be annotated with the specified annotation type.
+A protected field should have a full name matching the specified regex.
+A private field should have the specified Java modifier.
+A package-private field should have a name matching the specified regex.
+A public field should have a name ending with the specified regex.
+A private field should not be declared in a class within the specified package.
+A public field should have a name starting with the specified type name.
+A private field should have a raw type matching the specified type.
+A public field should have a raw type matching the specified type.
+A private field should declare a throwable of the specified type.
+A static field in the specified package should be public.
+A final field in the specified package should be private.
+A private field in the specified package should be protected.
+A public field in the specified package should be package-private.
+A field with a name matching the specified regex should be final.
+A public member should be declared in a class within the specified package.
+A private member should be declared in a class implementing the specified type.
+A protected member should be declared in a class within the specified package.
+A private member should be declared in a class within the specified package.
+A package-private member should be declared in a class within the specified package.
+"A public member with a name matching get"" should be declared in a class within the specified package."""
+A private member should not be declared in a class within the specified package.
+A public member in the specified package should be declared in a class within another specified package.
+A member with a name matching the specified regex should be declared in a class implementing the specified type.
+A member with a name matching the specified regex should be declared in a class within the specified package.
+A public member should be declared in a public class.
+A private member should be declared in a static class.
+A protected member should be declared in a protected class.
+A private member should not be declared in a package-private class.
+A package-private member should be declared in a final class.
+"A public member with a name matching get"" should be declared in a private class."""
+A private member should not be declared in a class within the specified package.
+A public member in the specified package should be declared in a public class within another specified package.
+A member with a name matching the specified regex should be declared in a public class implementing the specified type.
+A member with a name matching the specified regex should be declared in a static class within the specified package.
+A private member should be annotated with the specified annotation type.
+A protected member should have a full name matching the specified regex.
+A private member should have the specified Java modifier.
+A package-private member should have a name matching the specified regex.
+A public member should have a name ending with the specified regex.
+A private member should not be declared in a class within the specified package.
+A public member should have a name starting with the specified regex.
+A private member should have a name starting with the specified regex.
+A public member should have a name starting with the specified regex.
+A private member should declare a throwable of the specified type.
+A static member in the specified package should be public.
+A final member in the specified package should be private.
+A private member in the specified package should be protected.
+A public member in the specified package should be package-private.
+A member matching the specified regex should be public.
+A public method should not be declared in a class within the specified package.
+A private method should be declared in a class implementing the specified type.
+A protected method should be declared in a class within the specified package.
+A final method should not be declared in a class within the specified package.
+A package-private method should be declared in a class within the specified package.
+"A public method with a name matching get"" should be declared in a class within the specified package."""
+A private final method should not be declared in a class within the specified package.
+A public static method in the specified package should not be declared in a class within another specified package.
+"A public static method with a name matching X1"" should be declared in a class within the specified package."""
+"A protected final method with a name matching X1"" should be declared in a class within the specified package."""
+A public method should be declared in a public class.
+A private method should be declared in a private class.
+A protected method should be declared in a protected class.
+A final method should not be declared in a final class.
+A package-private method should be declared in a package-private class.
+"A public method with a name matching get"" should be declared in a final class."""
+A private final method should be declared in a package-private class.
+A public static method in the specified package should not be declared in a public static class.
+A public static method with a name matching the specified regex should be declared in a public class within the specified package.
+"A protected final method with a name matching X1"" should be declared in a static class within the specified package."""
+A public method should be annotated with the specified annotation type.
+A private method should be declared in a class matching the specified name.
+A protected method should have parameter types matching the specified type.
+A final method should have a full name matching the specified string.
+A package-private method should have a name ending with the specified string.
+"A public method with a name matching get"" should have a name matching the specified string."""
+A private final method should have a raw return type matching the specified type.
+A public static method in the specified package should have raw parameter types matching the specified type.
+"A public static method with a name matching String1"" should have a full name matching ""String2""."""
+"A protected final method with a name matching String1"" should have a name containing ""String2""."""
+A static method should be public.
+A final method should be static.
+A private method should be protected.
+A public method in the specified package should be package-private.
+"A method with a name matching get"" should be public."""

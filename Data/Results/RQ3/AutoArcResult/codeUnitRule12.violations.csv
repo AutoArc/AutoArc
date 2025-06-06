@@ -1,0 +1,1 @@
+1,code units that are private should be declared in classes that have modifier STATIC,Method <packageIdentifier.OuterNonStaticClass$InvalidClass.invalidMethod()> is not declared in classes that have modifier STATIC in (OuterNonStaticClass.java:6),)> is not declared in classes that have modifier STATIC in (OuterNonStaticClass.java,MEDIUM

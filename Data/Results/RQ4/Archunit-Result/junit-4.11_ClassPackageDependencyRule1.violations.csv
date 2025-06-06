@@ -1,0 +1,1 @@
+1,classes that have name matching '.*ClassRequest.*' should reside in a package '..runner..',"Class <org.junit.internal.requests.ClassRequest> does not reside in a package '..runner..'",ClassRequest.java,MEDIUM

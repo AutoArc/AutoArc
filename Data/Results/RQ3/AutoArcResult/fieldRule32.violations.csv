@@ -1,0 +1,1 @@
+1,fields that have modifier FINAL and are declared in classes that reside in a package 'packageIdentifier' should be private,Field <packageIdentifier.InvalidClass.myPublicFinalField> does not have modifier PRIVATE in (InvalidClass.java:0),InvalidClass.java,MEDIUM

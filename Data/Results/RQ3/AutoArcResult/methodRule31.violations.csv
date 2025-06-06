@@ -1,0 +1,1 @@
+1,methods that have modifier STATIC should be public,Method <otherpackage.InvalidClass.hiddenMethod()> does not have modifier PUBLIC in (InvalidClass.java:7),)> does not have modifier PUBLIC in (InvalidClass.java,MEDIUM

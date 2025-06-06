@@ -1,0 +1,1 @@
+1,methods that have modifier FINAL should be static,Method <otherpackage.InvalidClass.saveData()> does not have modifier STATIC in (InvalidClass.java:7),)> does not have modifier STATIC in (InvalidClass.java,MEDIUM

@@ -1,0 +1,1 @@
+1,members that have modifier STATIC and are declared in classes that reside in a package 'packageIdentifier' should be public,Method <packageIdentifier.InvalidClass.someMethod()> does not have modifier PUBLIC in (InvalidClass.java:7),)> does not have modifier PUBLIC in (InvalidClass.java,MEDIUM

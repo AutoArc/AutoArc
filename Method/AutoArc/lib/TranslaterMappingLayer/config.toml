@@ -1,0 +1,10 @@
+api_key = ""
+pre_command_file_path = "C:/LSDocument/GitHub/guarding/preCommand.txt"
+guarding_file_path = "C:/LSDocument/GitHub/guarding/guarding.guarding"
+
+[api]
+gpt_key = "sk-nJ7dZEm49WnqiebzyD4vfnaRewFGAnCz7kcfBuBXJAMN1"
+
+api_key = ""
+model_name = "llama3.3:latest" #llama3.3:latest deepseek-r1:70b deepseek-2.5r1:8b
+service_port = "http://127.0.0.1:11434/api/chat"

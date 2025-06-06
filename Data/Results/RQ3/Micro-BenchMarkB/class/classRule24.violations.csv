@@ -1,0 +1,1 @@
+1,classes that are public should have name not matching '.*Regex.*',Class <packageIdentifier.InvalidRegexClass> has name matching '.*Regex.*' in (InvalidRegexClass.java:0),InvalidRegexClass.java,MEDIUM

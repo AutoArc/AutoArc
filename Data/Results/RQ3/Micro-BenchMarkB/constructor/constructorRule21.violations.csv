@@ -1,0 +1,1 @@
+1,constructors that are private should be annotated with @MyAnnotation,Constructor <packageIdentifier.InvalidClass.<init>()> is not annotated with @MyAnnotation in (InvalidClass.java:7),)> is not annotated with @MyAnnotation in (InvalidClass.java,MEDIUM

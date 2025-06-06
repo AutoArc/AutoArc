@@ -1,0 +1,1 @@
+1,methods that are private should be declared in classes that are private,Method <otherpackage.InvalidClass.illegalPrivateMethod()> is not declared in classes that are private in (InvalidClass.java:6),)> is not declared in classes that are private in (InvalidClass.java,MEDIUM

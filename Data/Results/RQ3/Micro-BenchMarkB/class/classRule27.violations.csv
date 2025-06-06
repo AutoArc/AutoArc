@@ -1,0 +1,1 @@
+1,classes that are public should have simple name not ending with 'regex',Class <packageIdentifier.Myregex> has simple name ending with 'regex' in (Myregex.java:0),Myregex.java,MEDIUM

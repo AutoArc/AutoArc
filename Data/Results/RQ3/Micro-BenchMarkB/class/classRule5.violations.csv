@@ -1,0 +1,1 @@
+1,classes that implement packageIdentifier.TypeName should be extended by classes that have name matching '.*myclass.*',Class <otherpackage.OtherClass> extends class <packageIdentifier.ValidClass> in (OtherClass.java:0),OtherClass.java,MEDIUM

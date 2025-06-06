@@ -1,0 +1,2 @@
+1,no classes that are public should be assignable to packageIdentifier.typeName,Class <packageIdentifier.ValidClass> is assignable to packageIdentifier.typeName in (ValidClass.java:0),ValidClass.java,MEDIUM
+2,no classes that are public should be assignable to packageIdentifier.typeName,Class <packageIdentifier.typeName> is assignable to packageIdentifier.typeName in (typeName.java:0),typeName.java,MEDIUM

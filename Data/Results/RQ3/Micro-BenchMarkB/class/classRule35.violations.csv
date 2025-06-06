@@ -1,0 +1,1 @@
+1,classes that are not public should be enums,Class <packageIdentifier.InvalidNonEnumClass> is no enum in (InvalidNonEnumClass.java:0),InvalidNonEnumClass.java,MEDIUM

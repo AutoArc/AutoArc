@@ -1,0 +1,11 @@
+Project	Abbr	File	Loc	C&NC
+apache-ant-1.8.4	O-1	1921	216855	646
+caster-1.3.1	O-2	4760	360547	1210
+displaytag-1.2	O-3	582	30743	593
+freecs-1.3.20100406	O-4	204	26286	738
+javacc-5.0	O-5	261	22510	26
+junit-4.11	O-6	165	7440	1674
+Archunit-junit4	O-7	193	2675	275
+Archunit-junit5	O-8	190	2593	273
+Archunit-plain	O-9	206	2837	234
+Summary	9	8482	672486	5669

@@ -1,0 +1,2 @@
+1,code units that are protected should have modifier STATIC,Method <otherpackage.InvalidClass2.anotherMethod()> does not have modifier STATIC in (InvalidClass2.java:6),)> does not have modifier STATIC in (InvalidClass2.java,MEDIUM
+2,code units that are protected should have modifier STATIC,Method <packageIdentifier.InvalidClass.invalidMethod()> does not have modifier STATIC in (InvalidClass.java:6),)> does not have modifier STATIC in (InvalidClass.java,MEDIUM

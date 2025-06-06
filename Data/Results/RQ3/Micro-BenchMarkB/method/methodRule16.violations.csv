@@ -1,0 +1,1 @@
+1,methods that are public and have name matching 'get' should be declared in classes that have modifier FINAL,Method <otherpackage.NonFinalGetterClass.get()> is not declared in classes that have modifier FINAL in (NonFinalGetterClass.java:6),)> is not declared in classes that have modifier FINAL in (NonFinalGetterClass.java,MEDIUM

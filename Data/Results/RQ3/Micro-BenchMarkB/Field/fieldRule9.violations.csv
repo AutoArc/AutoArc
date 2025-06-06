@@ -1,0 +1,1 @@
+1,fields that have name matching '.*secret.*' should be declared in classes that implement mypackage.MyInterface,Field <otherpackage.NonCompliantFieldClass.secretKey> is not declared in classes that implement mypackage.MyInterface in (NonCompliantFieldClass.java:0),NonCompliantFieldClass.java,MEDIUM

@@ -1,0 +1,1 @@
+1,no members that are private should be declared in classes that reside in a package 'packageIdentifier',Field <packageIdentifier.InvalidClass.secretField> is declared in classes that reside in a package 'packageIdentifier' in (InvalidClass.java:0),InvalidClass.java,MEDIUM

@@ -1,0 +1,2 @@
+1,classes that are public should be inner classes,Class <packageIdentifier.InvalidTopLevelClass> is no inner class in (InvalidTopLevelClass.java:0),InvalidTopLevelClass.java,MEDIUM
+2,classes that are public should be inner classes,Class <packageIdentifier.OuterClass> is no inner class in (OuterClass.java:0),OuterClass.java,MEDIUM

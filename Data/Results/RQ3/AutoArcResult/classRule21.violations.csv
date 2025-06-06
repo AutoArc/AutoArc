@@ -1,0 +1,1 @@
+1,classes that are public should have name matching '.*myclass.*',Class <packageIdentifier.InvalidClass> does not have name matching '.*myclass.*' in (InvalidClass.java:0),InvalidClass.java,MEDIUM

@@ -1,0 +1,210 @@
+classRule1,"Public classes should not be extended by classes in ""packageIdentifier"""
+classRule2,"Static classes should access classes in ""packageIdentifier"""
+classRule3,"Public interface classes should depend on classes with names matching ""myclass"""
+classRule4,"Public classes in ""packageIdentifier"" should depend on classes with names matching ""myclass"""
+classRule5,"Classes implementing ""packageIdentifier.TypeName"" should be extended by classes matching ""myclass"""
+classRule6,"Classes implementing ""packageIdentifier.typeName"" should only depend on classes with names matching ""myclass"""
+classRule7,"Public classes implementing ""packageIdentifier.typeName"" should only depend on ""myclass""-named classes"
+classRule8,"Classes implementing ""packageIdentifier.typeName"" should access classes in ""packageIdentifier"""
+classRule9,"Inner classes in ""packageIdentifier"" should access classes with names matching ""myclass"""
+classRule10,"Public classes should depend on classes in""packageIdentifier"""
+classRule11,Public classes should not be extended by other public classes.
+classRule12,"Protected classes with names matching ""my"" should not be accessed by public classes."""
+classRule13,Package-private classes should not be extended by public classes.
+classRule14,Local classes should not depend on other local classes.
+classRule15,Interface classes should only depend on static classes.
+classRule16,Top-level classes should only access protected classes.
+classRule17,"Protected classes should access private classes in""packageIdentifier"""
+classRule18,"Public classes should access static classes with names matching ""Myclass"""
+classRule19,Protected classes should not access public classes.
+classRule20,Package-private classes should only be extended by public classes.
+classRule21,"Public classes should have names matching ""myclass"""
+classRule22,"Public classes should not be assignable to""packageIdentifier.typeName"""
+classRule23,"Public classes should not be assignable from""packageIdentifier.typeName"""
+classRule24,"Public classes should not have  names matching""Regex"""
+classRule25,"Public classes should have names starting with""Regex"""
+classRule26,"Public classes should have names containing""Regex"""
+classRule27,"Public classes should not have names ending with""Regex"""
+classRule28,"Private classes should have names starting with""Regex"""
+classRule29,"Protected classes should be assignable to""packageIdentifier.typeName"""
+classRule30,"Package-private classes should not be annotated with""packageIdentifier.annotationTypeName"""
+classRule31,Static classes should be public.
+classRule32,Nested classes should be public.
+classRule33,Public classes should be inner classes.
+classRule34,Public classes should be local classes.
+classRule35,Non-public classes should be enums.
+methodRule1,"Public methods should not be declared in classes within""packageIdentifier1"""
+methodRule2,"Private methods should be declared in classes implementing ""mypackage.typeName1"""
+methodRule3,"Protected methods should be declared in classes within""packageIdentifier1"""
+methodRule4,"Final methods should not be declared in classes within""packageIdentifier1"""
+methodRule5,"Package-private methods should be declared in classes within""packageIdentifier1"""
+methodRule6,"Public methods with names matching""get"" should be declared in classes in ""packageIdentifier1"""
+methodRule7,"Private final methods should not be declared in classes within""packageIdentifier1"""
+methodRule8,"Public static methods in ""packageIdentifier1"" should not be declared in ""packageIdentifier1"" classes."
+methodRule9,"Public static methods with names matching """"X1"" should be declared in ""packageIdentifier1"" classes."
+methodRule10,"Protected final methods with names matching  ""X1"" should be declared in ""packageIdentifier1"" classes."
+methodRule11,Public methods should be declared in public classes.
+methodRule12,Private methods should be declared in private classes.
+methodRule13,Protected methods should be declared in protected classes.
+methodRule14,Final methods should not be declared in final classes.
+methodRule15,Package-private methods should be declared in package-private classes.
+methodRule16,"Public methods with names matching ""get"" should be declared in final classes."
+methodRule17,Private final methods should be declared in package-private classes.
+methodRule18,"Public static methods in""packageIdentifier"" should not be declared in public static classes."""
+methodRule19,"Public static methods with names matching""regex"" should be declared in public classes within ""packageIdentifier1"""
+methodRule20,"Protected final methods with names matching ""X1"" should be declared in static classes within ""packageIdentifier1"""
+methodRule21,"Public methods should be annotated with ""mypackage.SpecifiedAnnotation"""
+methodRule22,"Public methods should have parameter types of ""String"""
+methodRule23,"Protected methods should have parameter types of ""int"""
+methodRule24,"Final methods should have full names matching ""String"""
+methodRule25,"Package-private methods should have names ending with ""String"""
+methodRule26,"Public methods with names matching ""get"" should have names matching ""String"""
+methodRule27,"Private final methods should have raw return type ""java.lang.String"""
+methodRule28,"Public static methods in""packageIdentifier"" should have parameter types ""packageIdentifier.CustomType"""
+methodRule29,"Public static methods with names matching""String1"" should have full name ""packageIdentifier.ValidMethod.String1()"""
+methodRule30,"Protected final methods with names matching""do.*Action"" should have names containing ""Log"""
+methodRule31,Static methods should be public.
+methodRule32,Final methods should be static.
+methodRule33,Private methods should be protected.
+methodRule34,"Public methods in""X1"" should be package-private."
+methodRule35,"Methods with names matching  ""get"" should be public."
+codeUnitRule1,"Public code units should be declared in classes within""packageIdentifier"""
+codeUnitRule2,"Private code units should be declared in classes implementing""packageIdentifier.typeName"""
+codeUnitRule3,"Protected code units should be declared in classes within""packageIdentifier"""
+codeUnitRule4,"Private code units should not be declared in classes within""packageIdentifier"""
+codeUnitRule5,"Package-private code units should be declared in classes within""packageIdentifier"""
+codeUnitRule6,"Public code units with names matching""Regex"" should be declared in ""packageIdentifier"" classes."
+codeUnitRule7,"Private code units should not be declared in classes within""packageIdentifier"""
+codeUnitRule8,"Public code units in""packageIdentifier1"" should be declared in classes within ""packageIdentifier2"""
+codeUnitRule9,"Code units with names matching""regex"" should be declared in classes implementing ""packageIdentifier.typeName"""
+codeUnitRule10,"Code units with names matching""regex"" should be declared in classes within ""packageIdentifier"""
+codeUnitRule11,Public code units should be declared in public classes.
+codeUnitRule12,Private code units should be declared in static classes.
+codeUnitRule13,Protected code units should be declared in protected classes.
+codeUnitRule14,Private code units should not be declared in package-private classes.
+codeUnitRule15,Package-private code units should be declared in final classes.
+codeUnitRule16,"Public code units with names matching""get"" should be declared in private classes."
+codeUnitRule17,"Private code units should not be declared in classes within""packageIdentifier"""
+codeUnitRule18,"Public code units in""packageIdentifier1"" should be declared in public classes within ""packageIdentifier2"""
+codeUnitRule19,"Code units with names matching""regex"" should be declared in public classes implementing ""packageIdentifier.typeName"""
+codeUnitRule20,"Code units with names matching""regex"" should be declared in static classes within ""packageIdentifier"""
+codeUnitRule21,"Private code units should be annotated with  ""packageIdentifier.MyAnnotation"""
+codeUnitRule22,"Protected code units should have full names matching""Regex"""
+codeUnitRule23,"Public code units should have full names matching""Regex"""
+codeUnitRule24,"Package-private code units should have names matching""Regex"""
+codeUnitRule25,"Public code units should have names ending with""Regex"""
+codeUnitRule26,"Private code units should not be declared in classes within""packageIdentifier"""
+codeUnitRule27,"Public code units should have names starting with""Regex"""
+codeUnitRule28,"Public code units should have raw return type""packageIdentifier.typeName"""
+codeUnitRule29,"Private code units should have raw return type""packageIdentifier.typeName"""
+codeUnitRule30,"Private code units should declare throwable of type""packageIdentifier.typeName"""
+codeUnitRule31,"Static code units in""packageIdentifier"" should be public."
+codeUnitRule32,"Final code units in""packageIdentifier"" should be private."
+codeUnitRule33,"Private code units in""packageIdentifier"" should be protected."
+codeUnitRule34,"Public code units in""packageIdentifier"" should be package-private."
+codeUnitRule35,"Code units with names matching""Regex"" should be public."
+fieldRule1,"Public fields should be declared in classes within""packageIdentifier"""
+fieldRule2,"Private fields should be declared in classes implementing""mypackage.MyInterface"""
+fieldRule3,"Protected fields should be declared in classes within""packageIdentifier"""
+fieldRule4,"Private fields should not be declared in classes within""packageIdentifier"""
+fieldRule5,"Package-private fields should be declared in classes within""packageIdentifier"""
+fieldRule6,"Public fields with names matching""get"" should be declared in ""packageIdentifier"" classes."
+fieldRule7,"Private fields should not be declared in classes within""packageIdentifier"""
+fieldRule8,"Public fields in""packageIdentifier1"" should be declared in classes within ""packageIdentifier2"""
+fieldRule9,"Fields with names matching""secret"" should be declared in classes implementing ""mypackage.MyInterface"""
+fieldRule10,"Fields with names matching""regex"" should be declared in classes within ""packageIdentifier"""
+fieldRule11,Public fields should be declared in public classes.
+fieldRule12,Private fields should be declared in static classes.
+fieldRule13,Protected fields should be declared in protected classes.
+fieldRule14,Private fields should not be declared in package-private classes.
+fieldRule15,Package-private fields should be declared in final classes.
+fieldRule16,"Public fields with names matching""get"" should be declared in private classes."""
+fieldRule17,"Private fields should not be declared in classes within""packageIdentifier"""
+fieldRule18,"Public fields in""packageIdentifier"" should be declared in public classes within ""otherpackage"""
+fieldRule19,"Fields with names matching  ""secret"" should be declared in public classes implementing ""mypackage.MyInterface"""
+fieldRule20,"Fields with names matching""secret"" should be declared in static classes within ""packageIdentifier"""
+fieldRule21,"Private fields should be annotated with  ""MyAnnotation"""
+fieldRule22,"Protected fields should have full names matching ""MyProtectedField"""
+fieldRule23,"Public fields should have full names matching ""MyProtectedField"""
+fieldRule24,"Package-private fields should have names matching ""myField"""
+fieldRule25,"Public fields should have names ending with""Regex"""
+fieldRule26,"Private fields should not be declared in classes within""packageIdentifier"""
+fieldRule27,"Public fields should have names starting with ""my"""
+fieldRule28,"Private fields should have names starting with ""my"""
+fieldRule29,"Package-private fields should have names starting with""my"""
+fieldRule30,"Private fields should declare throwable of type ""typeName"""
+fieldRule31,"Static fields in""packageIdentifier"" should be public."
+fieldRule32,"Final fields in""packageIdentifier"" should be private."
+fieldRule33,"Private fields in""packageIdentifier"" should be protected."""
+fieldRule34,"Public fields in""packageIdentifier"" should be package-private."""
+fieldRule35,"Fields with names matching""my"" should be final."""
+memberRule1,"Public members should be declared in classes within""packageIdentifier"""
+memberRule2,"Private members should be declared in classes implementing ""typeName"""
+memberRule3,"Protected members should be declared in classes within""packageIdentifier"""
+memberRule4,"Private members should be declared in classes within""packageIdentifier"""
+memberRule5,"Package-private members should be declared in classes within""packageIdentifier"""
+memberRule6,"Public members with names matching""get"" should be declared in ""packageIdentifier"" classes."
+memberRule7,"Private members should be declared in classes within""packageIdentifier"""
+memberRule8,"Public members in""packageIdentifier1"" should be declared in classes within ""packageIdentifier2"""
+memberRule9,"Members with names matching""regex"" should be declared in classes implementing ""typeName"""
+memberRule10,"Members with names matching""regex"" should be declared in classes within ""packageIdentifier1"""
+memberRule11,Public members should be declared in public classes.
+memberRule12,Private members should be declared in static classes.
+memberRule13,Protected members should be declared in public classes.
+memberRule14,Private members should not be declared in package-private classes.
+memberRule15,Package-private members should be declared in final classes.
+memberRule16,"Public members with names matching""get"" should be declared in private classes."
+memberRule17,"Private members should be declared in classes within""packageIdentifier"""
+memberRule18,"Public members in""packageIdentifier1"" should be declared in public classes within ""packageIdentifier2"""
+memberRule19,"Members with names matching""regex"" should be declared in public classes implementing ""typeName"""
+memberRule20,"Members with names matching""regex"" should be declared in static classes within ""packageIdentifier"""
+memberRule21,"Private members should be annotated with ""annotatedTypeName"""
+memberRule22,"Protected members should have full names matching""regex"""
+memberRule23,"Public members should have full names matching""regex"""
+memberRule24,"Package-private members should have names matching""regex"""
+memberRule25,"Public members should have names ending with""regex"""
+memberRule26,"Private members should not be declared in classes within""packageIdentifier"""
+memberRule27,"Public members should have names starting with""regex"""
+memberRule28,"Private members should have names starting with""regex"""
+memberRule29,"Public members should have names starting with""regex"""
+memberRule30,"Private members should have names containing""regex"""
+memberRule31,"Static members in""packageIdentifier"" should be public."
+memberRule32,"Final members in""packageIdentifier"" should be private."
+memberRule33,"Private members in""packageIdentifier"" should be protected."
+memberRule34,"Public members in""packageIdentifier"" should be package-private."
+memberRule35,"Members with names matching""Regex"" should be public."
+constructorRule1,"Public constructors should be declared in classes within""packageIdentifier"""
+constructorRule2,"Private constructors should be declared in classes implementing ""typeName"""
+constructorRule3,"Protected constructors should be declared in classes within""packageIdentifier"""
+constructorRule4,"Private constructors should be declared in classes within""packageIdentifier"""
+constructorRule5,"Package-private constructors should be declared in classes within""packageIdentifier"""
+constructorRule6,"Public constructors should be declared in classes that in ""packageIdentifier"" ."
+constructorRule7,"Private constructors should not be declared in classes within""packageIdentifier"""
+constructorRule8,"Public constructors in""packageIdentifier1"" should be declared in classes within ""packageIdentifier2"""
+constructorRule9,"Constructors are not private should be declared in classes implementing ""packageIdentifier.TypeName"""
+constructorRule10,"Constructors are not private  should be declared in classes within ""packageIdentifier1"""
+constructorRule11,Public constructors should be declared in public classes.
+constructorRule12,Private constructors should be declared in static classes.
+constructorRule13,Protected constructors should be declared in protected classes.
+constructorRule14,Private constructors should not be declared in package-private classes.
+constructorRule15,Package-private constructors should be declared in final classes.
+constructorRule16,Not private constructors should be declared in public classes.
+constructorRule17,"Private constructors should not be declared in classes within""packageIdentifier"""
+constructorRule18,"Public constructors in""packageIdentifier1"" should be declared in public classes within ""packageIdentifier2"""
+constructorRule19,"not private constructors should be declared in public classes implementing ""typeName"""
+constructorRule20,"not private constructors should be declared in static classes reside in ""packageIdentifier"""
+constructorRule21,"Private constructors should be annotated with ""packageIdentifier.MyAnnotation"""
+constructorRule22,"Protected constructors should have full names matching""my"""
+constructorRule23,"Public constructors should not have names matching""regex"""
+constructorRule24,"Package-private constructors should have names matching""regex"""
+constructorRule25,"Public constructors should have names ending with""regex"""
+constructorRule26,"Private constructors should not be declared in classes within""packageIdentifier"""
+constructorRule27,"Public constructors should have names starting with""regex"""
+constructorRule28,"Private constructors should have names starting with""regex"""
+constructorRule29,"Public constructors should have names starting with""regex"""
+constructorRule30,"Private constructors should declare throwable of type ""typeName"""
+constructorRule31,"Constructors in""packageIdentifier"" should be public."
+constructorRule32,"Public constructors in""packageIdentifier"" should be private."
+constructorRule33,"Private members in""packageIdentifier"" should be protected."
+constructorRule34,"Public constructors in""packageIdentifier"" should be package-private."
+constructorRule35,not private constructors should be public.

@@ -1,0 +1,2 @@
+1,constructors that are private should declare throwable of type typeName,Constructor <packageIdentifier.InvalidClass.<init>()> does not declare throwable of type typeName in (InvalidClass.java:7),)> does not declare throwable of type typeName in (InvalidClass.java,MEDIUM
+2,constructors that are private should declare throwable of type typeName,Constructor <packageIdentifier.ValidClass.<init>()> does not declare throwable of type typeName in (ValidClass.java:7),)> does not declare throwable of type typeName in (ValidClass.java,MEDIUM

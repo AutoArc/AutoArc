@@ -1,0 +1,1 @@
+1,no code units that are private should be declared in classes that reside in a package 'packageIdentifier',Method <packageIdentifier.InvalidClass.doSomethingPrivate()> is declared in classes that reside in a package 'packageIdentifier' in (InvalidClass.java:5),)> is declared in classes that reside in a package 'packageIdentifier' in (InvalidClass.java,MEDIUM

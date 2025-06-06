@@ -1,0 +1,1 @@
+1,constructors that are package private should have name matching 'regex',Constructor <packageIdentifier.regex.<init>()> does not have name matching 'regex' in (regex.java:6),)> does not have name matching 'regex' in (regex.java,MEDIUM

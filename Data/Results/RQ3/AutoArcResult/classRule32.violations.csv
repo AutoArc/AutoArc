@@ -1,0 +1,1 @@
+1,classes that are nested classes should be public,Class <packageIdentifier.OuterClassWithPrivateNested$InvalidNestedClass> does not have modifier PUBLIC in (OuterClassWithPrivateNested.java:0),OuterClassWithPrivateNested.java,MEDIUM

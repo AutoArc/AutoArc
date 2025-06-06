@@ -1,0 +1,1 @@
+1,constructors that are private should be declared in classes that reside in a package 'packageIdentifier',Constructor <otherpackage.OtherClass.<init>()> is not declared in classes that reside in a package 'packageIdentifier' in (OtherClass.java:5),)> is not declared in classes that reside in a package 'packageIdentifier' in (OtherClass.java,MEDIUM

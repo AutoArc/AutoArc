@@ -1,0 +1,1 @@
+1,classes that reside in a package '..impl..' should not be interfaces,"Class <com.tngtech.archunit.example.layers.service.impl.SomeInterfacePlacedInTheWrongPackage> is an interface",SomeInterfacePlacedInTheWrongPackage.java,MEDIUM

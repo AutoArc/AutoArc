@@ -1,0 +1,1 @@
+1,code units that are package private should be declared in classes that have modifier FINAL,Method <packageIdentifier.InvalidClass.invalidMethod()> is not declared in classes that have modifier FINAL in (InvalidClass.java:5),)> is not declared in classes that have modifier FINAL in (InvalidClass.java,MEDIUM

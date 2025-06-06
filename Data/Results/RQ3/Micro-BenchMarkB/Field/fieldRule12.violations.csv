@@ -1,0 +1,1 @@
+1,fields that are private should be declared in classes that have modifier STATIC,Field <otherpackage.InvalidNonStaticInnerClass$InnerNonStaticClass.hiddenData> is not declared in classes that have modifier STATIC in (InvalidNonStaticInnerClass.java:0),InvalidNonStaticInnerClass.java,MEDIUM

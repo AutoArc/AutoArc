@@ -1,0 +1,3 @@
+1,code units that are public should have name starting with 'regex',Constructor <packageIdentifier.InvalidClass.<init>()> does not have name starting with 'regex' in (InvalidClass.java:3),)> does not have name starting with 'regex' in (InvalidClass.java,MEDIUM
+2,code units that are public should have name starting with 'regex',Constructor <packageIdentifier.ValidClass.<init>()> does not have name starting with 'regex' in (ValidClass.java:3),)> does not have name starting with 'regex' in (ValidClass.java,MEDIUM
+3,code units that are public should have name starting with 'regex',Method <packageIdentifier.InvalidClass.getSomething()> does not have name starting with 'regex' in (InvalidClass.java:6),)> does not have name starting with 'regex' in (InvalidClass.java,MEDIUM

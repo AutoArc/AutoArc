@@ -1,0 +1,7 @@
+{
+  "DSL": "class [public] should BePrivate;",
+  "attempts": 0,
+  "result": [
+    "classes().that().arePublic().should().bePrivate()"
+  ]
+}

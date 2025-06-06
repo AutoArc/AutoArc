@@ -1,0 +1,4 @@
+1,members that are public should have modifier STATIC,Constructor <packageIdentifier.InvalidClass.<init>()> does not have modifier STATIC in (InvalidClass.java:3),)> does not have modifier STATIC in (InvalidClass.java,MEDIUM
+2,members that are public should have modifier STATIC,Constructor <packageIdentifier.ValidClass.<init>()> does not have modifier STATIC in (ValidClass.java:3),)> does not have modifier STATIC in (ValidClass.java,MEDIUM
+3,members that are public should have modifier STATIC,Field <packageIdentifier.InvalidClass.invalidField> does not have modifier STATIC in (InvalidClass.java:0),InvalidClass.java,MEDIUM
+4,members that are public should have modifier STATIC,Method <packageIdentifier.InvalidClass.invalidMethod()> does not have modifier STATIC in (InvalidClass.java:7),)> does not have modifier STATIC in (InvalidClass.java,MEDIUM

@@ -1,0 +1,3 @@
+1,code units that are public should have name ending with 'Regex',Constructor <otherpackage.InvalidClass2.<init>()> does not have name ending with 'Regex' in (InvalidClass2.java:3),)> does not have name ending with 'Regex' in (InvalidClass2.java,MEDIUM
+2,code units that are public should have name ending with 'Regex',Constructor <packageIdentifier.InvalidClass.<init>()> does not have name ending with 'Regex' in (InvalidClass.java:3),)> does not have name ending with 'Regex' in (InvalidClass.java,MEDIUM
+3,code units that are public should have name ending with 'Regex',Constructor <packageIdentifier.ValidregexClass.<init>()> does not have name ending with 'Regex' in (ValidregexClass.java:3),)> does not have name ending with 'Regex' in (ValidregexClass.java,MEDIUM

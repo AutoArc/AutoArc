@@ -1,0 +1,1 @@
+1,fields that are private should be annotated with @MyAnnotation,Field <otherpackage.NonCompliantFieldClass.hiddenToken> is not annotated with @MyAnnotation in (NonCompliantFieldClass.java:0),NonCompliantFieldClass.java,MEDIUM

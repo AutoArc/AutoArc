@@ -1,0 +1,1 @@
+1,classes that are public should have simple name containing 'regex',Class <packageIdentifier.UtilityTool> does not have simple name containing 'regex' in (UtilityTool.java:0),UtilityTool.java,MEDIUM

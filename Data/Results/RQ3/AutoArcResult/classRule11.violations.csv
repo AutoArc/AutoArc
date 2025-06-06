@@ -1,0 +1,1 @@
+1,classes that are public should not be extended by classes that are public,Class <packageIdentifier.GoodSubClass> extends class <packageIdentifier.GoodBaseClass> in (GoodSubClass.java:0),GoodSubClass.java,MEDIUM

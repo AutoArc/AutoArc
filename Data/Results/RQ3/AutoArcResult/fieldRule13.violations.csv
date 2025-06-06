@@ -1,0 +1,2 @@
+1,fields that are protected should be declared in classes that are protected,Field <otherpackage.InvalidClass$InnerInvalid.innerField> is not declared in classes that are protected in (InvalidClass.java:0),InvalidClass.java,MEDIUM
+2,fields that are protected should be declared in classes that are protected,Field <otherpackage.InvalidClass.validField> is not declared in classes that are protected in (InvalidClass.java:0),InvalidClass.java,MEDIUM

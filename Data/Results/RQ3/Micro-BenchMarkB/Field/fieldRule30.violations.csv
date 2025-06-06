@@ -1,0 +1,2 @@
+1,fields that are private should have modifier STATIC,Field <otherpackage.InvalidClass.age> does not have modifier STATIC in (InvalidClass.java:0),InvalidClass.java,MEDIUM
+2,fields that are private should have modifier STATIC,Field <otherpackage.InvalidClass.nickname> does not have modifier STATIC in (InvalidClass.java:0),InvalidClass.java,MEDIUM

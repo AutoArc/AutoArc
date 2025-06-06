@@ -1,0 +1,11 @@
+1,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.BuildEvent> does not reside in a package '..loader..'",BuildEvent.java,MEDIUM
+2,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.BuildException> does not reside in a package '..loader..'",BuildException.java,MEDIUM
+3,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.BuildFileTest$AntOutputStream> does not reside in a package '..loader..'",BuildFileTest.java,MEDIUM
+4,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.BuildFileTest$AntTestListener> does not reside in a package '..loader..'",BuildFileTest.java,MEDIUM
+5,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.BuildFileTest> does not reside in a package '..loader..'",BuildFileTest.java,MEDIUM
+6,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.BuildListener> does not reside in a package '..loader..'",BuildListener.java,MEDIUM
+7,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.BuildLogger> does not reside in a package '..loader..'",BuildLogger.java,MEDIUM
+8,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.SubBuildListener> does not reside in a package '..loader..'",SubBuildListener.java,MEDIUM
+9,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.taskdefs.BuildNumber> does not reside in a package '..loader..'",BuildNumber.java,MEDIUM
+10,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.taskdefs.optional.sound.SoundTask$BuildAlert> does not reside in a package '..loader..'",SoundTask.java,MEDIUM
+11,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.apache.tools.ant.taskdefs.optional.testing.BuildTimeoutException> does not reside in a package '..loader..'",BuildTimeoutException.java,MEDIUM

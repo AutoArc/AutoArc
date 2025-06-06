@@ -1,0 +1,1 @@
+1,constructors that are private should have name starting with 'regex',Constructor <otherpackage.OtherClass.<init>()> does not have name starting with 'regex' in (OtherClass.java:6),)> does not have name starting with 'regex' in (OtherClass.java,MEDIUM

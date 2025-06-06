@@ -1,0 +1,1 @@
+1,fields that are private should have name starting with 'my',Field <otherpackage.InvalidField.fieldNotMatching> does not have name starting with 'my' in (InvalidField.java:0),InvalidField.java,MEDIUM

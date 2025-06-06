@@ -1,0 +1,1 @@
+1,methods that are public and are declared in classes that reside in a package 'X1' should be package private,Method <X1.InvalidExample.processData()> has modifier PUBLIC in (InvalidExample.java:7),)> has modifier PUBLIC in (InvalidExample.java,MEDIUM

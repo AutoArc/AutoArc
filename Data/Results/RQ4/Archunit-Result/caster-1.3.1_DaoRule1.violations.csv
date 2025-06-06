@@ -1,0 +1,4 @@
+1,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.castor.jdo.jpa.info.ClassInfoBuilder> does not reside in a package '..loader..'",ClassInfoBuilder.java,MEDIUM
+2,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.exolab.castor.builder.AnnotationBuilder> does not reside in a package '..loader..'",AnnotationBuilder.java,MEDIUM
+3,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.exolab.castor.builder.BuilderConfiguration$Property> does not reside in a package '..loader..'",BuilderConfiguration.java,MEDIUM
+4,classes that have name matching '.*Build.*' should reside in a package '..loader..',"Class <org.exolab.castor.builder.BuilderConfiguration> does not reside in a package '..loader..'",BuilderConfiguration.java,MEDIUM

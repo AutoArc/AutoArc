@@ -1,0 +1,1 @@
+1,classes that are protected should be assignable to packageIdentifier.typeName,Class <packageIdentifier.InvalidProtectedHolder$InvalidProtectedClass> is not assignable to packageIdentifier.typeName in (ValidProtectedClass.java:0),ValidProtectedClass.java,MEDIUM

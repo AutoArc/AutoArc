@@ -1,0 +1,1 @@
+1,code units that have name matching '.*regex.*' should be declared in classes that reside in a package 'packageIdentifier',Method <otherpackage.SomeClass.myregexMethod()> is not declared in classes that reside in a package 'packageIdentifier' in (SomeClass.java:6),)> is not declared in classes that reside in a package 'packageIdentifier' in (SomeClass.java,MEDIUM

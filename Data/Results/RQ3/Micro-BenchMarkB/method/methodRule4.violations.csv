@@ -1,0 +1,1 @@
+1,no methods that have modifier FINAL should be declared in classes that reside in a package 'packageIdentifier1',Method <packageIdentifier1.InvalidClass.forbiddenFinalMethod()> is declared in classes that reside in a package 'packageIdentifier1' in (InvalidClass.java:6),)> is declared in classes that reside in a package 'packageIdentifier1' in (InvalidClass.java,MEDIUM

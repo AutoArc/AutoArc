@@ -1,0 +1,1 @@
+1,methods that are private should be protected,Method <otherpackage.InvalidClass.deleteData()> does not have modifier PROTECTED in (InvalidClass.java:7),)> does not have modifier PROTECTED in (InvalidClass.java,MEDIUM

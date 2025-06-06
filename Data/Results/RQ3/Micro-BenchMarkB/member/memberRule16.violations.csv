@@ -1,0 +1,2 @@
+1,members that are public and have name matching 'get' should be declared in classes that are private,Method <packageIdentifier.InvalidClass.get()> is not declared in classes that are private in (InvalidClass.java:6),)> is not declared in classes that are private in (InvalidClass.java,MEDIUM
+2,members that are public and have name matching 'get' should be declared in classes that are private,Method <packageIdentifier.ValidClass.get()> is not declared in classes that are private in (ValidClass.java:6),)> is not declared in classes that are private in (ValidClass.java,MEDIUM
